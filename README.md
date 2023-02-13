@@ -13,6 +13,7 @@
  
  
  ### Color Schem
+ _The Traditional KiCAD colours are an ugly crimson & blue and remind me too much of cops. Try a nice Orange and Blue Theme for PCBeditor_
  
  Find `imogen.json` in `schemas` folder. copy to themes folder, likely:
  
