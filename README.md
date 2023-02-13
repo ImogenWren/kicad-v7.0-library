@@ -10,4 +10,13 @@
  Place repo in library folder in KiCAD folder and ensure paths point to the correct folder.
  
  ![image](https://user-images.githubusercontent.com/97303986/218597142-b3395193-c084-463d-b1ca-762e5402123e.png)
+ 
+ 
+ ### Color Schem
+ 
+ Find `imogen.json` in `schemas` folder. copy to themes folder, likely:
+ 
+ ```
+ $USER\AppData\Roaming\kicad\7.0\colors
+ ```
 
