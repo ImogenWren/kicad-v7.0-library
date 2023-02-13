@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP BAJ0BC0FP-E2
+D LDO Voltage Regulators IC LDO 1A 10V
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/baxxbc0-e.pdf
+$ENDCMP
+#
+#End Doc Library

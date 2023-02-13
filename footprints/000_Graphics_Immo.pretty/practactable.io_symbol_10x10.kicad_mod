@@ -1,0 +1,14 @@
+(footprint "practactable.io_symbol_10x10" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 63345FA6)
+  (attr board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+    (tstamp b0ec9a52-2c2c-409d-9c61-17281598b5c2)
+  )
+  (fp_text value "LOGO" (at 0.75 0) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+    (tstamp 4cc27aea-3ed5-41c3-8ad1-8121f72249af)
+  )
+  (fp_rect (start -20.32 -5.08) (end 20.32 6.35) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp 20194246-20e6-4817-bebf-2d40fda41fa7))
+)
