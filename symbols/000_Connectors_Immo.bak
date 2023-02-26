@@ -6,7 +6,7 @@
     (property "Value" "2pin_molex_2.54mm_male" (id 1) (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" (id 2) (at 0 0 0)
+    (property "Footprint" "000 Connectors Immo:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical_copy" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 0 0 0)
