@@ -87,9 +87,9 @@
       )
     )
   )
-  (model "${KICAD7_3RD_PARTY}/000_Immo_3D_models/USB-C/Type-C 16P.STEP" hide
-    (offset (xyz 0 0 0))
+  (model "${KICAD7_3RD_PARTY}/000_Immo_3D_models/USB-C/Type-C 16P.STEP"
+    (offset (xyz -0.09 -0.75 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
