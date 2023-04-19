@@ -35,7 +35,7 @@
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
-      (text "5v_max" (at 0 -5.08 0)
+      (text "+-5v_max" (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
     )
