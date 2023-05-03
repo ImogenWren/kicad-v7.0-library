@@ -59,9 +59,9 @@
   (pad "2" thru_hole circle (at 7.2 0) (size 4.1 4.1) (drill 2.7) (layers "*.Cu" "*.Mask") (tstamp 386faf3f-2adf-472a-84bf-bd511edf2429))
   (pad "S1" thru_hole rect (at -3.15 -6) (size 0.9 2) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (tstamp 72366acb-6c86-4134-89df-01ed6e4dc8e0))
   (pad "S2" thru_hole rect (at 10.35 -6) (size 0.9 2) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (tstamp de552ae9-cde6-4643-8cc7-9de2579dadae))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-M_1x02_P7.20mm_Horizontal.wrl"
-    (offset (xyz 0 0 0))
+  (model "${KICAD6_3RD_PARTY}/000_Immo_3D_models/Connector_AMASS.3dshapes/XT60PW-M.step"
+    (offset (xyz 3.5 15.5 4))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 180))
   )
 )
