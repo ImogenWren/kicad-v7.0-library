@@ -674,7 +674,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "supplier" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-span-style-background-color-ff0-LED-span_Foshan-NationStar-Optoelectronics-NCD0805C1_C84257.html" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "cost" "0.0166" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
