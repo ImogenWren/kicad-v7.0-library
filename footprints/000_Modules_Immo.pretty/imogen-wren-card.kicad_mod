@@ -7941,7 +7941,7 @@
     )
   )
   (fp_text user "github.com/PanGalacticTech" (at -8.99061 -11.956584 unlocked) (layer "F.SilkS")
-      (effects (font (face "Moon 2.0") (size 1.5 1.5) (thickness 0.3)))
+      (effects (font (face "Moon 2.0 Bold") (size 1.5 1.5) (thickness 0.3) bold))
     (tstamp 123e3768-59da-436b-bcc2-d1073bdcb599)
     (render_cache "github.com/PanGalacticTech" 0
       (polygon
@@ -13491,7 +13491,7 @@
     )
   )
   (fp_text user "Embedded Systems Development" (at 7.86939 23.343416 unlocked) (layer "F.SilkS")
-      (effects (font (face "Moon 2.0") (size 1.2 1.2) (thickness 0.3)) (justify left))
+      (effects (font (face "Moon 2.0 Bold") (size 1.2 1.2) (thickness 0.24) bold) (justify left))
     (tstamp 6b3bac9c-e4b0-4b1c-a303-8cc59c4b1753)
     (render_cache "Embedded Systems Development" 0
       (polygon
@@ -15402,7 +15402,7 @@
     )
   )
   (fp_text user "Design" (at 14.60939 24.843416 unlocked) (layer "F.SilkS")
-      (effects (font (face "Moon 2.0") (size 1.2 1.2) (thickness 0.3)) (justify left))
+      (effects (font (face "Moon 2.0 Bold") (size 1.2 1.2) (thickness 0.24) bold) (justify left))
     (tstamp 810f5725-000f-4ab6-9ab7-229b7b99f6be)
     (render_cache "Design" 0
       (polygon
@@ -15758,7 +15758,7 @@
     )
   )
   (fp_text user "Personal Projects & Education" (at -5.79061 -13.556584 unlocked) (layer "F.SilkS")
-      (effects (font (face "Moon 2.0") (size 1.2 1.2) (thickness 0.3)))
+      (effects (font (face "Moon 2.0 Bold") (size 1.2 1.2) (thickness 0.24) bold))
     (tstamp 818fe790-cd32-4501-a0a5-345830bfa1ef)
     (render_cache "Personal Projects & Education" 0
       (polygon
@@ -17170,7 +17170,7 @@
     )
   )
   (fp_text user "Product" (at 7.80939 24.743416 unlocked) (layer "F.SilkS")
-      (effects (font (face "Moon 2.0") (size 1.2 1.2) (thickness 0.3)) (justify left))
+      (effects (font (face "Moon 2.0 Bold") (size 1.2 1.2) (thickness 0.24) bold) (justify left))
     (tstamp 8db4b289-d990-46ed-b384-c08ceb6bd17e)
     (render_cache "Product" 0
       (polygon
@@ -18576,7 +18576,7 @@
     )
   )
   (fp_text user "github.com/ImogenWren" (at -4.19061 -15.956584 unlocked) (layer "F.SilkS")
-      (effects (font (face "Moon 2.0") (size 2 2) (thickness 0.3)))
+      (effects (font (face "Moon 2.0 Bold") (size 2 2) (thickness 0.4) bold))
     (tstamp baa7639f-591e-4023-91d2-023a79455ad0)
     (render_cache "github.com/ImogenWren" 0
       (polygon
@@ -20082,7 +20082,7 @@
     )
   )
   (fp_text user "Digital & Analog Audio Projects" (at -5.09061 -8.256584 unlocked) (layer "F.SilkS")
-      (effects (font (face "Moon 2.0") (size 1.2 1.2) (thickness 0.3)))
+      (effects (font (face "Moon 2.0 Bold") (size 1.2 1.2) (thickness 0.24) bold))
     (tstamp c64c4440-7ae6-4f13-beed-ead1ec7aadc0)
     (render_cache "Digital & Analog Audio Projects" 0
       (polygon
@@ -21651,7 +21651,7 @@
     )
   )
   (fp_text user "github.com/Imogen-Wren-Studios" (at -6.79061 -6.756584 unlocked) (layer "F.SilkS")
-      (effects (font (face "Moon 2.0") (size 1.5 1.5) (thickness 0.3) bold))
+      (effects (font (face "Moon 2.0 Bold") (size 1.5 1.5) (thickness 0.3) bold))
     (tstamp cb0ecbc1-1f11-44b1-85d4-2ef6d98ea2d2)
     (render_cache "github.com/Imogen-Wren-Studios" 0
       (polygon
@@ -23319,7 +23319,7 @@
     )
   )
   (fp_text user "Electronics & Automation" (at 7.80939 26.243416 unlocked) (layer "F.SilkS")
-      (effects (font (face "Moon 2.0") (size 1.2 1.2) (thickness 0.3)) (justify left))
+      (effects (font (face "Moon 2.0 Bold") (size 1.2 1.2) (thickness 0.24) bold) (justify left))
     (tstamp cff58304-fe64-462b-af1a-0b53a94ef3f9)
     (render_cache "Electronics & Automation" 0
       (polygon
