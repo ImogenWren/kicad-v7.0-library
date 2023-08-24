@@ -6,7 +6,7 @@
     (property "Value" "2-way-selection" (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 0 11.43 0)
+    (property "Footprint" "000_Pin_Headers_Immo:2-way-select" (at 0 11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 0 0)
