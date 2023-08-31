@@ -1,13 +1,13 @@
-(footprint "ImogenWren40" (version 20221018) (generator pcbnew)
+(footprint "ImogenWren40_1" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
-    (tstamp 500ff3f2-2fe1-48bf-8944-26481ff2dd3d)
+    (tstamp 3adaa905-4311-4625-8369-58bf2ce172db)
   )
   (fp_text value "LOGO" (at 0.75 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
-    (tstamp c3be9078-6c32-408a-a1fc-96f557254f0f)
+    (tstamp fc2269e1-b774-4284-afdc-61a9ce6ecaf4)
   )
   (fp_poly
     (pts
@@ -137,7 +137,7 @@
       (xy 3.480084 9.087597)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 1ae93d39-8db5-4af4-a5fb-c18cda078691))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 6607aa07-ddf2-45f3-8882-ad2257349b5c))
   (fp_poly
     (pts
       (xy 8.127818 9.495161)
@@ -309,7 +309,7 @@
       (xy 7.78586 9.483111)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 59f28f0a-b7d1-4d8b-97ab-0528f1fff4b3))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp f57d0fda-65a5-404c-93f6-7f201efaf136))
   (fp_poly
     (pts
       (xy 10.478051 9.478137)
@@ -482,7 +482,7 @@
       (xy 10.408429 9.45944)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 6dd167bf-c8c8-4a1d-af9f-2ddc796e84e0))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 9073f767-6cc0-4d0d-a1e1-9fbafc38c16a))
   (fp_poly
     (pts
       (xy 2.119003 4.7463)
@@ -759,7 +759,7 @@
       (xy 1.99029 4.743187)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp cd3bd24e-8dc0-4c89-8b9a-44cf1cddd68c))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp f59ae6f9-ff84-4bb8-8c73-59510ec386f8))
   (fp_poly
     (pts
       (xy -8.999443 -15.177797)
@@ -1499,8 +1499,8 @@
       (xy 3.550789 7.923452)
       (xy 3.552073 7.785811)
       (xy 3.555356 7.676797)
-      (xy 3.560432 7.601078)
-      (xy 5.004113 7.601078)
+      (xy 3.562135 7.575678)
+      (xy 5.000058 7.575678)
       (xy 5.025299 7.733823)
       (xy 5.076534 7.847075)
       (xy 5.157881 7.941493)
@@ -2244,5 +2244,5 @@
       (xy -9.328318 -15.191297)
     )
 
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp ee489c43-72b8-4c7f-bb25-25b09e4d7cc7))
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 9fb78afa-cdcf-4a17-96ef-e1e086bb1315))
 )
