@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S1CH-3535660003-00000000-00001
+D 2.5 V Red LED  SMD, Seoul Semiconductor Z-Power S1CH-3535660003-00000000-00001
+K
+F https://docs.rs-online.com/4e95/0900766b8169aefa.pdf
+$ENDCMP
+#
+#End Doc Library

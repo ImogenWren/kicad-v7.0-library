@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L1C1-FRD1000000000
+D Lumileds LUXEON C 720  750 nm Red LED, 3-Pin SMD package
+K
+F https://www.lumileds.com/uploads/571/DS144-luxeon-c-color-line-datasheet-pdf
+$ENDCMP
+#
+#End Doc Library
