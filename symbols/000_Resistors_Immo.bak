@@ -523,7 +523,7 @@
     (property "Value" "50k_trimpot_MT" (at 9.652 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 0 -13.97 0)
+    (property "Footprint" "000_Resistors_Immo:Potentiometer_Bourns_3296W_Vertical" (at 0 -13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 0 0)

@@ -644,7 +644,7 @@
     (property "Value" "Alpha Pot" (at 9.652 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "000_Resistors_Immo:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" (at 0 -13.97 0)
+    (property "Footprint" "000_Resistors_Immo:Potentiometer_Alpha-reversable" (at 0 -13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 0 0)
