@@ -431,7 +431,7 @@
     (property "Value" "synth-signal-header-10way" (at -1.27 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "000-screw-terminals-immo:synth-signal-MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" (at -3.81 5.08 0)
+    (property "Footprint" "000-screw-terminals-immo:synth-signal-MPT-1x10_P2.54mm_Horizontal_1" (at -3.81 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 8.89 -1.27 0)
