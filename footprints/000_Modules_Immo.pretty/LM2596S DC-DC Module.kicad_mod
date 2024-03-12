@@ -1,0 +1,206 @@
+(footprint "LM2596S DC-DC Module"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/")
+	(tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
+	(property "Reference" "A5"
+		(at 20.447 14.732 180)
+		(layer "F.SilkS")
+		(uuid "597e1a93-f572-4337-ab0d-d7387026fc80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LM2596S DC-DC Module"
+		(at 4.953 14.7828 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "574fc6fe-b38d-477f-b6f1-db00ebead827")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3b3e72f-2d16-4805-b48e-fe59427e92f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16893287-2561-475f-a1d1-3195ee6d0e33")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "738ab508-63b5-44a0-93b8-19cb725076c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -20.32 -6.35)
+		(end 22.225 13.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d0967631-70ce-4dc5-af44-fe7684a689a6")
+	)
+	(fp_rect
+		(start -20.32 -6.35)
+		(end 22.225 13.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "633a963b-5ac6-4181-b149-baaec0e755c1")
+	)
+	(fp_text user "IN-"
+		(at -16.51 12.573 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "192903bf-0422-407a-925a-0093a1e9b698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IN+"
+		(at -18.669 -2.5908 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2aa67ffd-8855-4057-85cc-e46d0b1d997f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 17.8054 -5.0292 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a6076e6-6d66-48be-8e9a-1519a607a41a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 20.193 10.8712 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a99ec14f-17ac-4ff7-bc0a-a765a9374cce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "50bf00c7-c69d-47e9-8d7f-002d8001f5dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -14.3256 -4.1148)
+		(size 4.2 4.2)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "16fa3ca1-79a9-4ede-ab25-e5557515ac78")
+	)
+	(pad "" np_thru_hole circle
+		(at 16.2052 11.6332)
+		(size 4.2 4.2)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "12e90146-8c2a-4165-b7fc-98ec923c5807")
+	)
+	(pad "1" thru_hole circle
+		(at -19.05 12.7)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b530c2f9-6d89-4948-9d76-8bac246377c3")
+	)
+	(pad "2" thru_hole circle
+		(at -19.05 -5.08)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "177cbe5d-ca64-410f-b730-0d04b853dbfe")
+	)
+	(pad "3" thru_hole circle
+		(at 20.955 12.7)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3d963e7-0ff4-49b4-98da-1b54e1b36895")
+	)
+	(pad "4" thru_hole circle
+		(at 20.955 -5.08)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ebdd4436-4639-44c4-a36d-877699176507")
+	)
+	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/Power Buck Converter.stp"
+		(offset
+			(xyz 1 -3.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

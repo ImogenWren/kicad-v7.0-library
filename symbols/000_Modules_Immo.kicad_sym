@@ -4206,7 +4206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:LM2596S DC-DC Module"
+		(property "Footprint" "000_Modules_Immo:LM2596S DC-DC Module"
 			(at 12.7 -19.05 0)
 			(effects
 				(font
