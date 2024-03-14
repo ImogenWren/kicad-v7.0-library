@@ -1027,7 +1027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "000-industrial:schneider-3phase-16-breaker"
 			(at -1.27 0 0)
 			(effects
 				(font

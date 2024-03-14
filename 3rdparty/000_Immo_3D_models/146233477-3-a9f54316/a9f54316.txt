@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.0.8";"";
+"SUPPLIER";"Schneider";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"10-02042015-083511";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Schneider Electric Acti 9 MCB Mini Circuit Breaker 3P 16 A 10 kA Curve C";"";
+"TraceParts.InstanceId";"10-02042015-083511BF2G5K6D3PFPJAI5VDC5BY6BC";"";
+"TraceParts.PartTitle";"Schneider Electric Acti 9 MCB Mini Circuit Breaker 3P 16 A 10 kA Curve C";"";
+"REFERENCE";"A9F54316";"";
+"Buy_Now";"https://uk.rs-online.com/web/p/products/7913382?cm_mmc=en-ds-_-mcad-_-traceparts-_-7913382'";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"rs_stock_number";"7913382";"";
+"TraceParts.ClassPath";"RS_COMPONENTS:10-02042015-083511";"";

@@ -1,0 +1,12 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-27102023-053120";"";
+"REFERENCE";"9092415";"";
+"rs_stock_number";"9092415";"";
+"TraceParts.InstanceId";"90-27102023-05312078P2ST6ENTHNY6M228NL8S6AD";"";
+"url";"https://uk.rs-online.com/web/p/products/9092415//?cm_mmc=aff-_-uk-_-traceparts-_-9092415'";"";
+"TraceParts.PartTitle";"LED INDICATOR 16MM BLUE 12VAC/DC";"";
+"SUPPLIER";"RS Pro";"";
+"DESIGN";"LED INDICATOR 16MM BLUE 12VAC/DC";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.0";"";

@@ -3586,7 +3586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "000-industrial:led-panel-mount-indicator"
 			(at 0 0 90)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "000-industrial:led-panel-mount-indicator"
 			(at 0 0 90)
 			(effects
 				(font
@@ -4046,8 +4046,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 90)
+		(property "Footprint" "000-industrial:led-panel-mount-indicator"
+			(at 7.874 -6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "000-industrial:raspberry-pi"
 			(at 13.97 -6.35 0)
 			(effects
 				(font

@@ -1010,7 +1010,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CB"
-			(at 10.668 6.35 0)
+			(at 6.604 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1019,7 @@
 			)
 		)
 		(property "Value" "CircuitBreaker_3P"
-			(at 10.668 4.572 0)
+			(at 6.604 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "000-industrial:adam-6xxx"
 			(at -1.27 0 0)
 			(effects
 				(font
@@ -1046,7 +1046,7 @@
 			)
 		)
 		(property "Description" "Triple pole circuit breaker"
-			(at 27.94 7.62 0)
+			(at 23.876 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,8 +1139,8 @@
 		)
 		(symbol "CircuitBreaker_3P_1_0"
 			(rectangle
-				(start -2.54 5.08)
-				(end 10.16 -5.08)
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -1152,7 +1152,7 @@
 				)
 			)
 			(text "3P-CB"
-				(at 8.89 -0.254 900)
+				(at -5.08 -0.254 900)
 				(effects
 					(font
 						(size 1.27 1.27)
