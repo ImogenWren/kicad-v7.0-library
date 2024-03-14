@@ -373,9 +373,9 @@
 		(thermal_bridge_angle 45)
 		(uuid "dc4f14d2-3d69-4b20-b702-a9038032aed2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x4.3mm_P2.54mm.wrl"
+	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/keysiwtch-YW1K-2AE-2BE-2CE-3AE-3BE-3CE.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 50)
 		)
 		(scale
 			(xyz 1 1 1)

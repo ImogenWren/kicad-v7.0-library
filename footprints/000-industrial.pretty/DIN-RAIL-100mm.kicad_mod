@@ -602,7 +602,7 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "35bf0838-c77d-47be-80e5-2c61c4048d20")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x4.3mm_P2.54mm.wrl"
+	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/DIN-rail/nsyamrd15357sb.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -610,7 +610,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

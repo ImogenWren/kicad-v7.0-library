@@ -918,12 +918,12 @@
 		(thermal_bridge_angle 45)
 		(uuid "dc9181a7-0654-4f79-be1a-007c58ccce0c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x4.3mm_P2.54mm.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Analog_BGA-49_6.25x6.25mm_Layout7x7_P0.8mm_Ball0.5mm_Pad0.4mm.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 36.5 -1.5 -5.5)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 16 16 16)
 		)
 		(rotate
 			(xyz 0 0 0)

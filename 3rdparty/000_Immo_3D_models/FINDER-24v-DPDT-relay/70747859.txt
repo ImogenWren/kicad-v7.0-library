@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-14082023-064861";"";
+"REFERENCE";"48.52.7.024.0050SPA";"";
+"SUPPLIER_PART_NUMBER";"70747859";"";
+"rs_stock_number";"70747859";"";
+"TraceParts.PartTitle";"Modular interface - CO (nPDT), 24 V, Standard, 2 pole, 8 A, AgNi, Sensitive DC, 35 mm rail (EN 60715) mount, screw terminal, Standard for DC: green LED + diode (polarity +A1)";"";
+"SUPPLIER_NAME";"RS Americas";"";
+"Buy_Now";"https://us.rs-online.com/product/70747859";"";
+"DESIGN";"Modular interface - CO (nPDT), 24 V, Standard, 2 pole, 8 A, AgNi, Sensitive DC, 35 mm rail (EN 60715) mount, screw terminal, Standard for DC: green LED + diode (polarity +A1)";"";
+"TraceParts.InstanceId";"90-14082023-0648615KLW1TIB0ELNI2HMKHKJKYKRJ";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.0";"";

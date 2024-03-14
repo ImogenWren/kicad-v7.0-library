@@ -1,0 +1,244 @@
+(footprint "24v-30W-psu-DIN-rail"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4-Lead Plastic Small Outline (SO), see https://docs.broadcom.com/docs/AV02-0173EN")
+	(tags "SO SOIC 2.54")
+	(property "Reference" "REF**"
+		(at -26.67 -45.085 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bdb0d144-dc0f-45c8-860b-534d2eae2728")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "24v-30W-psu-DIN-rail"
+		(at -24.765 -46.99 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cd79e91-07b9-4a25-9f46-465fbdd3ac92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 58.42 26.035 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13716742-a0a2-49a5-a273-2223b1364ce9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 58.42 26.035 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0481ac7-4035-4fd3-bfb8-94044681df5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 58.42 26.035 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0916828e-080f-4dc0-8175-5a0d55e53c8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -13.335 -43.18)
+		(end 12.065 40.64)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4b008701-41f4-42ea-a0e6-0f65bea6c0ef")
+	)
+	(fp_circle
+		(center -5.715 -39.37)
+		(end -4.227675 -39.37)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "baf91156-b7b9-4c12-bcbe-787db2c4f5e0")
+	)
+	(fp_circle
+		(center -3.81 36.83)
+		(end -2.322675 36.83)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "28fafc39-3a2c-438b-84fd-1a16136f79ed")
+	)
+	(fp_circle
+		(center -1.905 -39.37)
+		(end -0.417675 -39.37)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "01b37913-a6b8-4500-99b3-d27c65952b92")
+	)
+	(fp_circle
+		(center 0 36.83)
+		(end 1.487325 36.83)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "125f078f-8060-4bad-9741-2639b97be48d")
+	)
+	(fp_circle
+		(center 1.905 -39.37)
+		(end 3.392325 -39.37)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9908b722-693f-4669-87d1-c6c168bbadc2")
+	)
+	(fp_circle
+		(center 3.81 36.83)
+		(end 5.297325 36.83)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "047b9760-e392-426a-96ac-ef9d1db5a9b5")
+	)
+	(fp_circle
+		(center 5.715 -39.37)
+		(end 7.202325 -39.37)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f6aa5ec8-cba9-4fe5-894f-f821a8c89535")
+	)
+	(fp_rect
+		(start -30.48 -11.43)
+		(end 29.21 8.89)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "User.5")
+		(uuid "711992fe-03a7-406a-9163-4b00e83673af")
+	)
+	(fp_text user "N"
+		(at -5.08 34.925 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "507e1805-295d-43e1-8309-ab4a80a7cb25")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 1.905 -33.655 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "600148b8-7926-4ca3-a321-4b0bdd719329")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -6.35 -33.655 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ddf25ad7-f85c-4fa9-a281-56dfe05ce856")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "PE"
+		(at 2.54 34.925 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e3b0f2dd-d8df-465a-ad64-2d298101bb3a")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "L"
+		(at -1.27 34.29 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eb040f6b-c712-427a-9b3c-74bf3cc66a6b")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/schneider-3phase-breaker-16A.stp"
+		(offset
+			(xyz -28 -42 75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-03042013-121765";"";
+"REFERENCE";"NSYAMRD15357SB";"";
+"TraceParts.PartTitle";"DIN rail";"";
+"TraceParts.InstanceId";"10-03042013-1217654WIBO9ROY5D18MOT7DRPA08U4";"";
+"DESIGN";"DIN 35x7,5 rail for box 150";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"Schneider Electric";"";
+"TraceParts.PartVersion";"1.2.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"SCHNEIDER_ELECTRIC_DISTRI:10-03042013-121765";"";
