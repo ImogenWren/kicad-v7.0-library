@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-05032024-058845";"";
+"REFERENCE";"SSP1D412BD";"";
+"rs_stock_number";"9045765";"";
+"TraceParts.PartTitle";"1phase solid state relay";"";
+"url";"https://uk.rs-online.com/web/p/solid-state-relays/9045765//?cm_mmc=aff-_-uk-_-traceparts-_-9045765";"";
+"SUPPLIER_NAME";"RS Components";"";
+"SUPPLIER";"Schneider Electric";"";
+"DESIGN";"1phase solid state relay";"";
+"TraceParts.InstanceId";"90-05032024-0588452N3XX9WWY2MK673V115V3T3RA";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.0";"";

@@ -146,8 +146,8 @@
 		(uuid "5797cfb5-9356-4e44-896a-5315e3f73679")
 	)
 	(fp_rect
-		(start -50.165 -17.78)
-		(end 50.165 17.78)
+		(start -67.945 -17.78)
+		(end 68.58 17.78)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -157,8 +157,8 @@
 		(uuid "ee195c8b-9095-47d3-9746-e452f6d02e6b")
 	)
 	(fp_rect
-		(start -50.165 -12.3825)
-		(end 50.165 12.3825)
+		(start -67.945 -12.3825)
+		(end 68.58 12.3825)
 		(stroke
 			(width 0.12)
 			(type default)

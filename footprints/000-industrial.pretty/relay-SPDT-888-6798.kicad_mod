@@ -78,6 +78,17 @@
 		(layer "F.SilkS")
 		(uuid "cb16865f-f614-42e6-8072-e9ba6661435f")
 	)
+	(fp_rect
+		(start -4.445 21.59)
+		(end 4.445 55.245)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "User.5")
+		(uuid "d81b3a49-0d82-40b5-81c9-052f2522e4d3")
+	)
 	(fp_text user "A2"
 		(at -2.032 4.572 0)
 		(unlocked yes)
@@ -169,7 +180,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.SilkS")
+		(layer "User.1")
 		(uuid "039587ce-7d2f-4ace-b7af-06c930e3765c")
 		(pts
 			(xy -3.048 -9.525) (xy 3.048 -9.525)
@@ -177,7 +188,7 @@
 		(height -12.135645)
 		(gr_text "6.0960 mm"
 			(at 0 -22.810645 0)
-			(layer "F.SilkS")
+			(layer "User.1")
 			(uuid "039587ce-7d2f-4ace-b7af-06c930e3765c")
 			(effects
 				(font
@@ -236,15 +247,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "568b20f7-26fa-4fed-b3b8-6a59611e3a86")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_DPDT_Omron_G6K-2G-Y.wrl"
+	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/spsp-relay-pheonix/2900364.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 3 -57 8.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 90)
 		)
 	)
 )

@@ -67,8 +67,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -13.335 -43.18)
-		(end 12.065 40.64)
+		(start -18.415 -76.835)
+		(end 18.415 46.355)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "4b008701-41f4-42ea-a0e6-0f65bea6c0ef")
 	)
 	(fp_circle
-		(center -5.715 -39.37)
-		(end -4.227675 -39.37)
+		(center -5.715 -73.66)
+		(end -4.227675 -73.66)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -89,8 +89,8 @@
 		(uuid "baf91156-b7b9-4c12-bcbe-787db2c4f5e0")
 	)
 	(fp_circle
-		(center -3.81 36.83)
-		(end -2.322675 36.83)
+		(center -3.81 43.815)
+		(end -2.322675 43.815)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -100,8 +100,8 @@
 		(uuid "28fafc39-3a2c-438b-84fd-1a16136f79ed")
 	)
 	(fp_circle
-		(center -1.905 -39.37)
-		(end -0.417675 -39.37)
+		(center -1.905 -73.66)
+		(end -0.417675 -73.66)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -111,8 +111,8 @@
 		(uuid "01b37913-a6b8-4500-99b3-d27c65952b92")
 	)
 	(fp_circle
-		(center 0 36.83)
-		(end 1.487325 36.83)
+		(center 0 43.815)
+		(end 1.487325 43.815)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -122,8 +122,8 @@
 		(uuid "125f078f-8060-4bad-9741-2639b97be48d")
 	)
 	(fp_circle
-		(center 1.905 -39.37)
-		(end 3.392325 -39.37)
+		(center 1.905 -73.66)
+		(end 3.392325 -73.66)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -133,8 +133,8 @@
 		(uuid "9908b722-693f-4669-87d1-c6c168bbadc2")
 	)
 	(fp_circle
-		(center 3.81 36.83)
-		(end 5.297325 36.83)
+		(center 3.81 43.815)
+		(end 5.297325 43.815)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -144,8 +144,8 @@
 		(uuid "047b9760-e392-426a-96ac-ef9d1db5a9b5")
 	)
 	(fp_circle
-		(center 5.715 -39.37)
-		(end 7.202325 -39.37)
+		(center 5.715 -73.66)
+		(end 7.202325 -73.66)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -155,8 +155,8 @@
 		(uuid "f6aa5ec8-cba9-4fe5-894f-f821a8c89535")
 	)
 	(fp_rect
-		(start -30.48 -11.43)
-		(end 29.21 8.89)
+		(start -20.32 -28.575)
+		(end 20.32 -1.905)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -166,7 +166,7 @@
 		(uuid "711992fe-03a7-406a-9163-4b00e83673af")
 	)
 	(fp_text user "N"
-		(at -5.08 34.925 0)
+		(at -5.08 41.91 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "507e1805-295d-43e1-8309-ab4a80a7cb25")
@@ -179,7 +179,7 @@
 		)
 	)
 	(fp_text user "-"
-		(at 1.905 -33.655 0)
+		(at 1.905 -67.945 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "600148b8-7926-4ca3-a321-4b0bdd719329")
@@ -192,7 +192,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at -6.35 -33.655 0)
+		(at -6.35 -67.945 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ddf25ad7-f85c-4fa9-a281-56dfe05ce856")
@@ -205,7 +205,7 @@
 		)
 	)
 	(fp_text user "PE"
-		(at 2.54 34.925 0)
+		(at 2.54 41.91 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e3b0f2dd-d8df-465a-ad64-2d298101bb3a")
@@ -218,7 +218,7 @@
 		)
 	)
 	(fp_text user "L"
-		(at -1.27 34.29 0)
+		(at -1.27 41.275 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "eb040f6b-c712-427a-9b3c-74bf3cc66a6b")
@@ -230,15 +230,15 @@
 			(justify left bottom)
 		)
 	)
-	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/schneider-3phase-breaker-16A.stp"
+	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/meanwell-24v-120w-DIN-rail-PSU/7654651.stp"
 		(offset
-			(xyz -28 -42 75)
+			(xyz 33 3.5 113)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 -90 -90)
 		)
 	)
 )

@@ -342,12 +342,12 @@
 		(thermal_bridge_angle 45)
 		(uuid "498259c0-496d-42b1-87c1-434ba9ce242b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x4.3mm_P2.54mm.wrl"
+	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/solid-state-relay/9045765.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz -14.5 -29.5 -1.5)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.65 0.65 0.65)
 		)
 		(rotate
 			(xyz 0 0 0)

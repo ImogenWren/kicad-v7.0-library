@@ -6,7 +6,7 @@
 	(descr "Omron G6K-2G-Y relay package http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf")
 	(tags "Omron G6K-2G-Y relay")
 	(property "Reference" "REF**"
-		(at 2.794 34.925 90)
+		(at 2.794 5.715 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -19,7 +19,7 @@
 		)
 	)
 	(property "Value" "relay-DPDT-finder-623-7157"
-		(at -1.27 32.385 90)
+		(at -1.27 12.7 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ebcde44c-b9e5-4346-b160-5a9903f4b2f7")
@@ -31,7 +31,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 16.21 14.525 0)
+		(at 16.21 -14.685 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -43,7 +43,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 16.21 14.525 0)
+		(at 16.21 -14.685 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 16.21 14.525 0)
+		(at 16.21 -14.685 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -7.62 -9.652)
-		(end 8.255 97.155)
+		(start -7.62 -21.717)
+		(end 8.255 67.945)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -78,8 +78,19 @@
 		(layer "F.SilkS")
 		(uuid "cb16865f-f614-42e6-8072-e9ba6661435f")
 	)
+	(fp_rect
+		(start -8.255 0.635)
+		(end 8.89 38.735)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "User.5")
+		(uuid "a53980e0-b7f9-4e24-9865-35bf435c062e")
+	)
 	(fp_text user "24"
-		(at -5.715 4.445 0)
+		(at -5.715 -7.62 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "21bec0c3-92ae-482d-9f9a-d05e29041ef8")
@@ -92,7 +103,7 @@
 		)
 	)
 	(fp_text user "A2"
-		(at -5.715 92.021556 0)
+		(at -5.715 62.811556 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "558d4526-5460-4465-afe7-a830cec90a00")
@@ -105,7 +116,7 @@
 		)
 	)
 	(fp_text user "A1"
-		(at 2.54 92.021556 0)
+		(at 2.54 62.811556 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8953e2df-0eb7-4469-b6e8-ade20c60ac3b")
@@ -118,7 +129,7 @@
 		)
 	)
 	(fp_text user "21"
-		(at -5.715 -2.54 0)
+		(at -5.715 -14.605 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8ee834d8-c5cf-448e-a99a-7bbb5ee4b628")
@@ -131,7 +142,7 @@
 		)
 	)
 	(fp_text user "12"
-		(at 2.54 11.43 0)
+		(at 2.54 -0.635 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a0efd49c-dfce-4d5f-899f-ba1888c5489b")
@@ -144,7 +155,7 @@
 		)
 	)
 	(fp_text user "11"
-		(at 2.54 -2.54 0)
+		(at 2.54 -14.605 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a39cb462-53b1-4f4c-917b-20550c633677")
@@ -157,7 +168,7 @@
 		)
 	)
 	(fp_text user "14"
-		(at 2.54 4.445 0)
+		(at 2.54 -7.62 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "cdffdbdc-f50b-4ae3-a111-ff76e4e5ab21")
@@ -170,7 +181,7 @@
 		)
 	)
 	(fp_text user "22"
-		(at -5.715 11.43 0)
+		(at -5.715 -0.635 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f38b98aa-573c-4061-8a90-e028e415c541")
@@ -183,7 +194,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.715 34.371 90)
+		(at 0.715 5.161 90)
 		(layer "F.Fab")
 		(uuid "4f5cbc43-e241-420b-9eb2-acb38dc0db33")
 		(effects
@@ -198,11 +209,11 @@
 		(layer "User.1")
 		(uuid "039587ce-7d2f-4ace-b7af-06c930e3765c")
 		(pts
-			(xy -7.62 -9.525) (xy 8.255 -9.525)
+			(xy -7.62 -21.519355) (xy 8.255 -21.519355)
 		)
 		(height -12.135645)
 		(gr_text "15.8750 mm"
-			(at 0.3175 -22.810645 0)
+			(at 0.3175 -34.805 0)
 			(layer "User.1")
 			(uuid "039587ce-7d2f-4ace-b7af-06c930e3765c")
 			(effects
@@ -231,11 +242,11 @@
 		(layer "User.1")
 		(uuid "9ccf4ae6-ad1e-4d25-b032-b3589ec1efdf")
 		(pts
-			(xy -7.62 97.155) (xy -7.62 -9.525)
+			(xy -7.62 67.945) (xy -7.62 -21.59)
 		)
 		(height -12.135645)
-		(gr_text "106.6800 mm"
-			(at -20.905645 43.815 90)
+		(gr_text "89.5350 mm"
+			(at -20.905645 23.1775 90)
 			(layer "User.1")
 			(uuid "9ccf4ae6-ad1e-4d25-b032-b3589ec1efdf")
 			(effects
@@ -260,104 +271,104 @@
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "11" smd rect
-		(at 2.54 -6.985)
+		(at 2.54 -19.05)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "08360ccc-0b41-4b77-8d2c-3392c7fe758e")
 	)
 	(pad "11" smd rect
-		(at 5.999576 -6.985)
+		(at 5.999576 -19.05)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "62b402d3-c785-4d71-94b6-cd504db2263a")
 	)
 	(pad "12" smd rect
-		(at 2.54 6.985)
+		(at 2.54 -5.08)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bd08266e-5aa6-4e9d-9f9a-e9251a2775f2")
 	)
 	(pad "12" smd rect
-		(at 5.999576 6.985)
+		(at 5.999576 -5.08)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "424734c2-4477-4e3c-b75d-e99844aaa747")
 	)
 	(pad "14" smd rect
-		(at 2.54 0)
+		(at 2.54 -12.065)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9cc6a597-c664-4fac-825b-fa69b11b2afb")
 	)
 	(pad "14" smd rect
-		(at 5.999576 0)
+		(at 5.999576 -12.065)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "38bb2ab4-496d-43ed-ad97-15b37f09dcaa")
 	)
 	(pad "21" smd rect
-		(at -5.715 -6.985)
+		(at -5.715 -19.05)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "42e3721e-6d27-49ce-838b-75bed355abf4")
 	)
 	(pad "21" smd rect
-		(at -2.255424 -6.985)
+		(at -2.255424 -19.05)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bef60474-7420-4d0b-89fd-19de182becad")
 	)
 	(pad "22" smd rect
-		(at -5.715 6.985)
+		(at -5.715 -5.08)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "393647f6-d5b7-4653-96ac-38c40e115f2f")
 	)
 	(pad "22" smd rect
-		(at -2.255424 6.985)
+		(at -2.255424 -5.08)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d46c89e9-4228-49d8-8975-eda0f1da5cfe")
 	)
 	(pad "24" smd rect
-		(at -5.715 0)
+		(at -5.715 -12.065)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0ca1d275-a2d7-41e0-adfc-73d51e6984d3")
 	)
 	(pad "24" smd rect
-		(at -2.255424 0)
+		(at -2.255424 -12.065)
 		(size 3.109152 2.678288)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b6ca34f1-2521-4844-be1f-a900edce5138")
 	)
 	(pad "A1" smd rect
-		(at 2.54 94.534969)
+		(at 2.54 65.324969)
 		(size 3.055979 3.895115)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b9f6b1e3-1831-4c5b-b989-38aed9d4a23f")
 	)
 	(pad "A1" smd rect
-		(at 6.35 94.561556)
+		(at 6.35 65.351556)
 		(size 3.055979 3.895115)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b42c2602-ebf0-41a1-a998-d11b9195a372")
 	)
 	(pad "A2" smd rect
-		(at -5.567154 94.615)
+		(at -5.567154 65.405)
 		(size 2.779468 3.916888)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c87c93d1-970c-4a0a-b2cc-15490d047e47")
 	)
 	(pad "A2" smd rect
-		(at -1.905 94.561556)
+		(at -1.905 65.351556)
 		(size 2.867382 3.91688)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f80491cf-c60b-4624-8788-55e389851cd4")
 	)
 	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/FINDER-24v-DPDT-relay/4852.stp"
 		(offset
-			(xyz -20 -71 -19)
+			(xyz -20 -36.5 -19)
 		)
 		(scale
 			(xyz 1 1 1)

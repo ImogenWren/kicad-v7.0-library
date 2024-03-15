@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-24112015-110736";"";
+"REFERENCE";"7654651";"";
+"rs_stock_number";"7654651";"";
+"TraceParts.PartTitle";"Mean Well, SDR DIN Rail Panel Mount Power Supply, 24V dc Output Voltage, 5A Output Current";"";
+"url";"https://uk.rs-online.com/web/p/products/7654651//?cm_mmc=aff-_-uk-_-traceparts-_-7654651'";"";
+"SUPPLIER_NAME";"RS Components";"";
+"SUPPLIER";"RS Pro";"";
+"DESIGN";"Mean Well, SDR DIN Rail Panel Mount Power Supply, 24V dc Output Voltage, 5A Output Current";"";
+"TraceParts.InstanceId";"10-24112015-1107362N3XX9WWY2MK673V115V3T3RA";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.1.1";"";

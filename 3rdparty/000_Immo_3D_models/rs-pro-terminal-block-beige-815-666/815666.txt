@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.0.2";"";
+"SUPPLIER";"RS Pro";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"90-31102023-053550";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"2.5/4 BEIGE DIN RAIL MOUNT TERMINAL,34A";"";
+"TraceParts.InstanceId";"90-31102023-0535502N3XX9WWY2MK673V115V3T3RA";"";
+"TraceParts.PartTitle";"2.5/4 BEIGE DIN RAIL MOUNT TERMINAL,34A";"";
+"url";"https://uk.rs-online.com/web/p/products/815666//?cm_mmc=aff-_-uk-_-traceparts-_-815666'";"";
+"REFERENCE";"815666";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"rs_stock_number";"815666";"";
+"TraceParts.ClassPath";"RS_COMPONENTS:90-31102023-053550";"";

@@ -1,0 +1,185 @@
+(footprint "2-pin-terminal-block"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Omron G6K-2G-Y relay package http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf")
+	(tags "Omron G6K-2G-Y relay")
+	(property "Reference" "REF**"
+		(at 2.032 7.112 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a9d8330-4228-4b49-abdf-37a1cca581da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2-pin-terminal-block"
+		(at -2.032 4.572 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ebcde44c-b9e5-4346-b160-5a9903f4b2f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 16.21 14.525 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a5e8692-4299-41d6-8955-89d58e7be05e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 16.21 14.525 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f39617d0-d327-4e8c-b99f-879ec532847f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 16.21 14.525 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48dd08b6-c82f-4673-ac82-c2238763611c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.048 -29.845)
+		(end 3.1115 27.432)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cb16865f-f614-42e6-8072-e9ba6661435f")
+	)
+	(fp_rect
+		(start -6.35 -17.145)
+		(end 6.35 15.875)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "User.5")
+		(uuid "31281afd-fcdb-4313-aedf-4aecd2412468")
+	)
+	(fp_text user "1"
+		(at -0.635 -21.59 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8953e2df-0eb7-4469-b6e8-ade20c60ac3b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "2"
+		(at -1.27 21.59 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cca9ea38-e22e-4173-81b5-86de158c2dde")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.047 6.558 90)
+		(layer "F.Fab")
+		(uuid "4f5cbc43-e241-420b-9eb2-acb38dc0db33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "039587ce-7d2f-4ace-b7af-06c930e3765c")
+		(pts
+			(xy -3.048 -29.845) (xy 3.048 -29.845)
+		)
+		(height -12.135645)
+		(gr_text "6.0960 mm"
+			(at 0 -43.130645 0)
+			(layer "User.1")
+			(uuid "039587ce-7d2f-4ace-b7af-06c930e3765c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.12)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(pad "1" smd rect
+		(at 0.127 -26.162)
+		(size 3.678307 2.678288)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b9f6b1e3-1831-4c5b-b989-38aed9d4a23f")
+	)
+	(pad "2" smd rect
+		(at 0 24.13)
+		(size 3.753804 2.753804)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "568b20f7-26fa-4fed-b3b8-6a59611e3a86")
+	)
+	(model "C:/Users/dheard/Documents/0000-KiCad/7.0/share/kicad/3rdparty/000_Immo_3D_models/rs-pro-terminal-block-beige-815-666/815666.stp"
+		(offset
+			(xyz 3 0.5 44)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
