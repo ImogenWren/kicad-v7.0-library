@@ -420,6 +420,7 @@
 		)
 	)
 	(symbol "2-way-terminal-block-bus"
+		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
@@ -566,6 +567,436 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "9kW-heater-with-thermostat"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -13.97 -24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2-way-terminal-block"
+			(at -12.192 -22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "000-industrial:2-pin-terminal-block"
+			(at -1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/wago/236-402/terminal-block-wire-to-brd-2pos/dp/1283526"
+			(at -2.54 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0.254 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "9kW-heater-with-thermostat_1_0"
+			(arc
+				(start -5.08 -9.525)
+				(mid -4.445 -10.16)
+				(end -3.81 -9.525)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -9.525)
+				(mid -1.905 -10.16)
+				(end -1.27 -9.525)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 2.54)
+				(mid -2.54 3.175)
+				(end -3.175 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -9.525)
+				(mid 0.635 -10.1829)
+				(end 1.27 -9.525)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 6.35) (xy -5.08 -9.525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -3.81 -9.525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 6.35) (xy -2.54 -9.525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 2.54) (xy -0.635 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -9.525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 -9.525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -9.525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 4.445) (xy 7.62 -9.525)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -3.81 2.54) (xy -3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 6.35) (xy 7.62 4.445) (xy 8.89 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 2.54) (xy 1.905 2.54) (xy 2.54 2.54) (xy 2.54 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.635 2.54)
+				(mid 0 3.175)
+				(end -0.635 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "9kW-heater-with-thermostat_1_1"
+			(polyline
+				(pts
+					(xy -6.35 5.08) (xy -5.08 6.35) (xy 2.54 6.35) (xy 3.175 6.985) (xy 5.715 6.985) (xy 6.35 6.35)
+					(xy 11.43 6.35) (xy 11.43 6.35) (xy 12.7 5.08) (xy 12.7 2.54) (xy 11.43 1.27) (xy 5.08 1.27) (xy 4.445 0.635)
+					(xy 1.905 0.635) (xy 1.27 1.27) (xy -5.08 1.27) (xy -6.35 2.54) (xy -6.35 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 10.16 270)
+				(length 3.81)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 10.16 270)
+				(length 3.81)
+				(name "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "L3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 10.16 270)
+				(length 3.81)
+				(name "N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 10.16 270)
+				(length 3.81)
+				(name "thermostat+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 10.16 270)
+				(length 3.81)
+				(name "thermostat-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 5.08 180)
+				(length 3.81)
+				(name "PE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -809,7 +1240,7 @@
 			)
 		)
 		(property "Footprint" "000-industrial:adam-6xxx"
-			(at 13.97 -6.35 0)
+			(at 6.096 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,8 +1304,8 @@
 					(color 191 185 183 0.88)
 				)
 			)
-			(text "ADAM-6018"
-				(at -15.24 25.4 0)
+			(text "ADAM-6018+"
+				(at 11.176 -16.256 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -904,7 +1335,7 @@
 			(pin input line
 				(at -12.7 -38.1 90)
 				(length 5.08)
-				(name "AI_4-"
+				(name "T/C_5-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -922,7 +1353,7 @@
 			(pin input line
 				(at -15.24 -38.1 90)
 				(length 5.08)
-				(name "AI_4+"
+				(name "T/C_5+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -937,10 +1368,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 5.08 -38.1 90)
 				(length 5.08)
-				(name "D0_1"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -958,7 +1389,7 @@
 			(pin input line
 				(at -19.05 -38.1 90)
 				(length 5.08)
-				(name "AI_3-"
+				(name "T/C_4-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -976,7 +1407,7 @@
 			(pin input line
 				(at -21.59 -38.1 90)
 				(length 5.08)
-				(name "AI_3+"
+				(name "T/C_4+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -992,9 +1423,9 @@
 				)
 			)
 			(pin input line
-				(at -6.35 39.37 270)
+				(at -5.08 39.37 270)
 				(length 5.08)
-				(name "AI_2-"
+				(name "T/C_1-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1012,7 +1443,7 @@
 			(pin input line
 				(at -8.89 39.37 270)
 				(length 5.08)
-				(name "AI_2+"
+				(name "T/C_2+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1027,10 +1458,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 2.54 39.37 270)
+			(pin input line
+				(at 1.27 39.37 270)
 				(length 5.08)
-				(name "AO_0_COM"
+				(name "T/C_0-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1045,10 +1476,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 39.37 270)
+			(pin input line
+				(at -2.54 39.37 270)
 				(length 5.08)
-				(name "AO_0"
+				(name "T/C_1+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1064,9 +1495,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 39.37 270)
+				(at -11.43 39.37 270)
 				(length 5.08)
-				(name "AI_1-"
+				(name "T/C_2-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1102,7 +1533,7 @@
 			(pin input line
 				(at -15.24 39.37 270)
 				(length 5.08)
-				(name "AI_1+"
+				(name "T/C_3+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1118,9 +1549,9 @@
 				)
 			)
 			(pin input line
-				(at -19.05 39.37 270)
+				(at -17.78 39.37 270)
 				(length 5.08)
-				(name "AI_0-"
+				(name "T/C_3-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1135,10 +1566,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at -21.59 39.37 270)
 				(length 5.08)
-				(name "AI_0+"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1153,10 +1584,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 7.62 39.37 270)
+			(pin input line
+				(at 3.81 39.37 270)
 				(length 5.08)
-				(name "DO_0"
+				(name "T/C_0+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1189,10 +1620,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin open_emitter line
 				(at 11.43 -38.1 90)
 				(length 5.08)
-				(name "DI_0"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1207,10 +1638,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 8.89 -38.1 90)
 				(length 5.08)
-				(name "DI_1"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1225,10 +1656,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 0 -38.1 90)
 				(length 5.08)
-				(name "AO_1_COM"
+				(name "T/C_7-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1243,10 +1674,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -2.54 -38.1 90)
 				(length 5.08)
-				(name "AO_1"
+				(name "T/C_7+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1264,7 +1695,7 @@
 			(pin input line
 				(at -6.35 -38.1 90)
 				(length 5.08)
-				(name "AI_5-"
+				(name "T/C_6-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1282,7 +1713,7 @@
 			(pin input line
 				(at -8.89 -38.1 90)
 				(length 5.08)
-				(name "AI_5+"
+				(name "T/C_6+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1886,7 +2317,7 @@
 				)
 			)
 			(text "ADAM-6052"
-				(at 15.875 -5.08 0)
+				(at 16.002 22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2108,7 +2539,7 @@
 				)
 			)
 			(pin input line
-				(at 19.685 -38.1 90)
+				(at 21.59 -38.1 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -4366,6 +4797,236 @@
 			)
 		)
 	)
+	(symbol "LED-panel-green"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 4.826 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED-panel-blue"
+			(at 9.398 0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000-industrial:led-panel-mount-indicator"
+			(at 7.874 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 14.224 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LED diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LED-panel-green_0_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -2.54) (xy 6.35 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 5.08) (xy 6.35 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -3.048) (xy 2.286 -4.572) (xy 2.286 -3.81) (xy 2.286 -4.572) (xy 1.524 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 2.286 -3.302) (xy 2.286 -2.54) (xy 2.286 -3.302) (xy 1.524 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED-panel-green_1_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -5.08) (xy 6.35 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 5.08) (xy 0 5.08) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+					(color 26 255 52 0.83)
+				)
+				(fill
+					(type color)
+					(color 29 255 34 0.48)
+				)
+			)
+			(pin passive line
+				(at 8.89 -2.54 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LED-panel-red"
 		(pin_numbers hide)
 		(pin_names
@@ -4556,6 +5217,236 @@
 				(fill
 					(type color)
 					(color 255 19 42 0.48)
+				)
+			)
+			(pin passive line
+				(at 8.89 -2.54 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LED-panel-white"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 4.826 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED-panel-blue"
+			(at 9.398 0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000-industrial:led-panel-mount-indicator"
+			(at 7.874 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 14.224 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LED diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LED-panel-white_0_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -2.54) (xy 6.35 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 5.08) (xy 6.35 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -3.048) (xy 2.286 -4.572) (xy 2.286 -3.81) (xy 2.286 -4.572) (xy 1.524 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 2.286 -3.302) (xy 2.286 -2.54) (xy 2.286 -3.302) (xy 1.524 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED-panel-white_1_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -5.08) (xy 6.35 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 5.08) (xy 0 5.08) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+					(color 118 115 115 0.83)
+				)
+				(fill
+					(type color)
+					(color 255 237 239 0.48)
 				)
 			)
 			(pin passive line
@@ -6288,6 +7179,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at -27.94 -8.89 0)
+				(length 5.08)
+				(name "GPIO23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 27.94 10.16 180)
 				(length 5.08)
@@ -6299,6 +7208,24 @@
 					)
 				)
 				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 -5.08 0)
+				(length 5.08)
+				(name "GPIO24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7394,6 +8321,367 @@
 			)
 			(pin passive line
 				(at -7.62 6.35 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "relay-SPDT-DIN-RAIL-888-6798-reverse"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K1"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "relay-SPDT-888-6798"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000-industrial:relay-SPDT-888-6798"
+			(at -22.606 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at -0.254 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at -0.254 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Miniature Relay Dual Pole DPDT Omron"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Relay*DPDT*Omron*G6K?2*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "relay-SPDT-DIN-RAIL-888-6798-reverse_0_0"
+			(text "+"
+				(at -4.064 5.334 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "relay-SPDT-DIN-RAIL-888-6798-reverse_0_1"
+			(polyline
+				(pts
+					(xy -5.08 6.35) (xy -1.905 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy -5.08 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy 3.81 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 8.89) (xy 1.905 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.905) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.635) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.635) (xy 0 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.175) (xy 0 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 6.35) (xy 1.905 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -6.35) (xy 2.54 -6.35) (xy 3.175 -5.715) (xy 3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.27) (xy 2.54 -1.27) (xy 3.175 -1.905) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.905 9.525)
+				(end -1.905 3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 11.43)
+				(end -5.08 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "relay-SPDT-DIN-RAIL-888-6798-reverse_1_1"
+			(text "COM"
+				(at -2.794 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "NC"
+				(at 3.302 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "NO"
+				(at 3.302 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -3.81 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -6.35 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 6.35 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 6.35 180)
 				(length 2.54)
 				(name "~"
 					(effects

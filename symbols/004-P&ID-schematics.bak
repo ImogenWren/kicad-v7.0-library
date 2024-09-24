@@ -1,1591 +1,3769 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "ADAM-5000_DAM" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "NI" (at 0 11.43 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "ADAM-5000_DAM" (at 0 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "ADAM-5000_DAM_0_0"
-      (text "9-30v" (at -5.08 2.54 0)
-        (effects (font (size 0.8 0.8)))
-      )
-      (text "cDAQ" (at -7.62 -19.05 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "ADAM-5000_DAM_0_1"
-      (rectangle (start -11.43 -20.32) (end 10.16 5.08)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "ADAM-5000_DAM_1_1"
-      (pin bidirectional line (at -16.51 -13.97 0) (length 5.08)
-        (name "RS232" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -16.51 2.54 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -16.51 0 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 2.54 180) (length 5.08)
-        (name "Module1" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 -3.81 180) (length 5.08)
-        (name "Module2" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 -10.16 180) (length 5.08)
-        (name "Module3" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 -16.51 180) (length 5.08)
-        (name "Module4" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "EasySYNC_ES-U-3001-M" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "NI" (at 16.51 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EasySYNC_ES-U-3001-M" (at 26.67 -10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 33.02 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "EasySYNC_ES-U-3001-M_0_0"
-      (text "EasySYNC" (at -5.08 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "EasySYNC_ES-U-3001-M_0_1"
-      (rectangle (start -10.16 5.08) (end 10.16 -10.16)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "EasySYNC_ES-U-3001-M_1_1"
-      (pin bidirectional line (at 8.89 10.16 270) (length 5.08)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 6.35 10.16 270) (length 5.08)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 3.81 10.16 270) (length 5.08)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 1.27 10.16 270) (length 5.08)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -1.27 10.16 270) (length 5.08)
-        (name "5" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -3.81 10.16 270) (length 5.08)
-        (name "6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -8.89 10.16 270) (length 5.08)
-        (name "USB" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 7.62 -15.24 90) (length 5.08)
-        (name "RS232" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "PSH" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "PS" (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "HP Pressure Switch" (at -0.635 16.51 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "NAME" "PSL" (at 0 13.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (symbol "PSH_0_1"
-      (arc (start -4.445 15.24) (mid -7.7609 11.7475) (end -4.445 8.255)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -4.445 8.255)
-          (xy 4.445 8.255)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -4.445 15.24)
-          (xy 4.445 15.24)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 12.065)
-          (xy 3.81 12.065)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 8.255)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 4.445 8.255) (mid 7.6905 11.7475) (end 4.445 15.24)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "PSH_1_1"
-      (pin output line (at 0 0 90) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "capillary-tube-L" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "X" (at 7.62 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "capillary-tube-L" (at 13.335 6.985 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 6.35 10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "capillary-tube-L_0_1"
-      (polyline
-        (pts
-          (xy 5.715 0)
-          (xy 5.969 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.334 2.159)
-          (xy -5.715 0)
-          (xy -5.842 0)
-          (xy -5.461 2.159)
-          (xy -5.334 2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 71 215 255 1))
-      )
-      (polyline
-        (pts
-          (xy -4.699 -2.159)
-          (xy -3.937 2.159)
-          (xy -3.81 2.159)
-          (xy -4.572 -2.159)
-          (xy -4.699 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 101 247 255 1))
-      )
-      (polyline
-        (pts
-          (xy -4.572 -2.159)
-          (xy -5.334 2.159)
-          (xy -5.461 2.159)
-          (xy -4.699 -2.159)
-          (xy -4.572 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 89 242 255 1))
-      )
-      (polyline
-        (pts
-          (xy -3.175 -2.159)
-          (xy -2.413 2.159)
-          (xy -2.286 2.159)
-          (xy -3.048 -2.159)
-          (xy -3.175 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 171 247 255 1))
-      )
-      (polyline
-        (pts
-          (xy -3.048 -2.159)
-          (xy -3.81 2.159)
-          (xy -3.937 2.159)
-          (xy -3.175 -2.159)
-          (xy -3.048 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 158 240 255 1))
-      )
-      (polyline
-        (pts
-          (xy -1.651 -2.159)
-          (xy -0.889 2.159)
-          (xy -0.762 2.159)
-          (xy -1.524 -2.159)
-          (xy -1.651 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 176 244 255 1))
-      )
-      (polyline
-        (pts
-          (xy -1.524 -2.159)
-          (xy -2.286 2.159)
-          (xy -2.413 2.159)
-          (xy -1.651 -2.159)
-          (xy -1.524 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 171 245 255 1))
-      )
-      (polyline
-        (pts
-          (xy -0.127 -2.159)
-          (xy 0.635 2.159)
-          (xy 0.762 2.159)
-          (xy 0 -2.159)
-          (xy -0.127 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 217 229 1))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.159)
-          (xy -0.762 2.159)
-          (xy -0.889 2.159)
-          (xy -0.127 -2.159)
-          (xy 0 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 254 249 255 1))
-      )
-      (polyline
-        (pts
-          (xy 1.397 -2.159)
-          (xy 2.159 2.159)
-          (xy 2.286 2.159)
-          (xy 1.524 -2.159)
-          (xy 1.397 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 163 172 1))
-      )
-      (polyline
-        (pts
-          (xy 1.524 -2.159)
-          (xy 0.762 2.159)
-          (xy 0.635 2.159)
-          (xy 1.397 -2.159)
-          (xy 1.524 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 213 209 1))
-      )
-      (polyline
-        (pts
-          (xy 2.921 -2.159)
-          (xy 3.683 2.159)
-          (xy 3.81 2.159)
-          (xy 3.048 -2.159)
-          (xy 2.921 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 85 73 1))
-      )
-      (polyline
-        (pts
-          (xy 3.048 -2.159)
-          (xy 2.286 2.159)
-          (xy 2.159 2.159)
-          (xy 2.921 -2.159)
-          (xy 3.048 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 119 100 1))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -2.159)
-          (xy 5.207 2.159)
-          (xy 5.334 2.159)
-          (xy 4.572 -2.159)
-          (xy 4.445 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 56 39 1))
-      )
-      (polyline
-        (pts
-          (xy 4.572 -2.159)
-          (xy 3.81 2.159)
-          (xy 3.683 2.159)
-          (xy 4.445 -2.159)
-          (xy 4.572 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 56 39 1))
-      )
-      (polyline
-        (pts
-          (xy 5.715 0)
-          (xy 5.334 2.159)
-          (xy 5.207 2.159)
-          (xy 5.588 0)
-          (xy 5.715 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 56 39 1))
-      )
-    )
-    (symbol "capillary-tube-L_1_1"
-      (pin output line (at -8.89 0 0) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 8.89 0 180) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "capillary-tube-M" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "X" (at 7.62 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "capillary-tube-M" (at 13.335 6.985 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 6.35 10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "capillary-tube-M_0_1"
-      (polyline
-        (pts
-          (xy -5.842 0)
-          (xy -2.794 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 0)
-          (xy 5.969 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.286 2.159)
-          (xy -2.667 0)
-          (xy -2.794 0)
-          (xy -2.413 2.159)
-          (xy -2.286 2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 71 215 255 1))
-      )
-      (polyline
-        (pts
-          (xy -1.651 -2.159)
-          (xy -0.889 2.159)
-          (xy -0.762 2.159)
-          (xy -1.524 -2.159)
-          (xy -1.651 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 101 247 255 1))
-      )
-      (polyline
-        (pts
-          (xy -1.524 -2.159)
-          (xy -2.286 2.159)
-          (xy -2.413 2.159)
-          (xy -1.651 -2.159)
-          (xy -1.524 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 89 242 255 1))
-      )
-      (polyline
-        (pts
-          (xy -0.127 -2.159)
-          (xy 0.635 2.159)
-          (xy 0.762 2.159)
-          (xy 0 -2.159)
-          (xy -0.127 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 176 244 255 1))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.159)
-          (xy -0.762 2.159)
-          (xy -0.889 2.159)
-          (xy -0.127 -2.159)
-          (xy 0 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 158 240 255 1))
-      )
-      (polyline
-        (pts
-          (xy 1.397 -2.159)
-          (xy 2.159 2.159)
-          (xy 2.286 2.159)
-          (xy 1.524 -2.159)
-          (xy 1.397 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 217 229 1))
-      )
-      (polyline
-        (pts
-          (xy 1.524 -2.159)
-          (xy 0.762 2.159)
-          (xy 0.635 2.159)
-          (xy 1.397 -2.159)
-          (xy 1.524 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 254 249 255 1))
-      )
-      (polyline
-        (pts
-          (xy 2.921 -2.159)
-          (xy 3.683 2.159)
-          (xy 3.81 2.159)
-          (xy 3.048 -2.159)
-          (xy 2.921 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 163 172 1))
-      )
-      (polyline
-        (pts
-          (xy 3.048 -2.159)
-          (xy 2.286 2.159)
-          (xy 2.159 2.159)
-          (xy 2.921 -2.159)
-          (xy 3.048 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 213 209 1))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -2.159)
-          (xy 5.207 2.159)
-          (xy 5.334 2.159)
-          (xy 4.572 -2.159)
-          (xy 4.445 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 56 39 1))
-      )
-      (polyline
-        (pts
-          (xy 4.572 -2.159)
-          (xy 3.81 2.159)
-          (xy 3.683 2.159)
-          (xy 4.445 -2.159)
-          (xy 4.572 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 56 39 1))
-      )
-      (polyline
-        (pts
-          (xy 5.715 0)
-          (xy 5.334 2.159)
-          (xy 5.207 2.159)
-          (xy 5.588 0)
-          (xy 5.715 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 56 39 1))
-      )
-    )
-    (symbol "capillary-tube-M_1_1"
-      (pin output line (at -8.89 0 0) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 8.89 0 180) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "capillary-tube-S" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "X" (at 7.62 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "capillary-tube-S" (at 13.335 6.985 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 6.35 10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "capillary-tube-S_0_1"
-      (polyline
-        (pts
-          (xy -5.842 0)
-          (xy 0.381 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 0)
-          (xy 5.969 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 2.159)
-          (xy 0.381 0)
-          (xy 0.254 0)
-          (xy 0.635 2.159)
-          (xy 0.762 2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 71 215 255 1))
-      )
-      (polyline
-        (pts
-          (xy 1.397 -2.159)
-          (xy 2.159 2.159)
-          (xy 2.286 2.159)
-          (xy 1.524 -2.159)
-          (xy 1.397 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 176 244 255 1))
-      )
-      (polyline
-        (pts
-          (xy 1.524 -2.159)
-          (xy 0.762 2.159)
-          (xy 0.635 2.159)
-          (xy 1.397 -2.159)
-          (xy 1.524 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 89 242 255 1))
-      )
-      (polyline
-        (pts
-          (xy 2.921 -2.159)
-          (xy 3.683 2.159)
-          (xy 3.81 2.159)
-          (xy 3.048 -2.159)
-          (xy 2.921 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 217 229 1))
-      )
-      (polyline
-        (pts
-          (xy 3.048 -2.159)
-          (xy 2.286 2.159)
-          (xy 2.159 2.159)
-          (xy 2.921 -2.159)
-          (xy 3.048 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 254 249 255 1))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -2.159)
-          (xy 5.207 2.159)
-          (xy 5.334 2.159)
-          (xy 4.572 -2.159)
-          (xy 4.445 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 56 39 1))
-      )
-      (polyline
-        (pts
-          (xy 4.572 -2.159)
-          (xy 3.81 2.159)
-          (xy 3.683 2.159)
-          (xy 4.445 -2.159)
-          (xy 4.572 -2.159)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 213 209 1))
-      )
-      (polyline
-        (pts
-          (xy 5.715 0)
-          (xy 5.334 2.159)
-          (xy 5.207 2.159)
-          (xy 5.588 0)
-          (xy 5.715 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 56 39 1))
-      )
-    )
-    (symbol "capillary-tube-S_1_1"
-      (pin output line (at -8.89 0 0) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 8.89 0 180) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "compressor" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "V" (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "compressor" (at 10.795 5.715 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "compressor_0_1"
-      (polyline
-        (pts
-          (xy -3.81 -5.08)
-          (xy 5.08 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 5.08)
-          (xy 5.08 3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 12.065)
-          (xy 3.81 12.065)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 0)
-          (xy 2.54 0)
-        )
-        (stroke (width 0.25) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 1.905)
-          (xy -1.905 -1.905)
-        )
-        (stroke (width 0.25) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 6.35)
-          (xy 0 8.255)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 6.35)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (circle (center 0 12.065) (radius 3.81)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "E" (at 0 13.335 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "compressor_1_1"
-      (pin output line (at -9.525 0 0) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 9.525 0 180) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "condensor" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "W" (at -16.51 -0.635 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "condensor" (at -6.985 8.255 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "condensor_0_1"
-      (circle (center -16.51 1.27) (radius 3.81)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -11.43 6.985) (end 3.175 -3.81)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (arc (start -9.525 1.27) (mid -7.874 1.0159) (end -6.223 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start -6.477 1.27) (mid -8.001 1.4627) (end -9.525 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center -6.35 1.27) (radius 0.254)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (arc (start -6.35 1.27) (mid -5.815 -0.1932) (end -4.826 -1.397)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start -6.35 1.27) (mid -5.346 2.535) (end -4.826 4.064)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center -6.35 1.27) (radius 4.5791)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start -4.826 -1.397) (mid -5.3347 0.0813) (end -6.35 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start -4.826 4.064) (mid -5.811 2.8579) (end -6.35 1.397)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -20.32 1.27)
-          (xy -12.7 1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -12.7 1.27)
-          (xy -11.43 1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -10.16 3.81)
-          (xy -3.81 5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 -2.54)
-          (xy -10.16 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 -0.762)
-          (xy 0.762 -0.762)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 0.635)
-          (xy 0.762 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 1.905)
-          (xy 0.762 1.905)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 3.048)
-          (xy 0.762 3.048)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 7.112)
-          (xy 0 -3.937)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "E" (at -16.51 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "condensor_1_1"
-      (pin output line (at 0 -6.985 90) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 0 10.16 270) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "filter" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (at 3.81 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "filter" (at 5.715 -0.635 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "filter_0_1"
-      (rectangle (start -1.905 4.445) (end 1.905 -4.445)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.905 5.08) (end 1.905 -5.08)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 -4.445)
-          (xy 1.905 4.445)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 4.445)
-          (xy 1.905 -4.445)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "filter_1_1"
-      (pin output line (at 0 -8.255 90) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 0 8.255 270) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "flow-meter" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "FM" (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "flow-meter" (at 0.635 17.145 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "flow-meter_0_1"
-      (rectangle (start -1.905 2.54) (end 1.905 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy -3.81 12.065)
-          (xy 3.81 12.065)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 8.255)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 12.065) (radius 3.81)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "F" (at 0 13.335 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "flow-meter_1_1"
-      (pin output line (at -3.175 0 0) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 3.175 0 180) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "pressure_sensor" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "P" (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "pressure_sensor" (at 0.635 17.145 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "pressure_sensor_0_1"
-      (polyline
-        (pts
-          (xy -3.81 12.065)
-          (xy 3.81 12.065)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 8.255)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 12.065) (radius 3.81)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "P" (at 0 13.335 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "pressure_sensor_1_1"
-      (pin output line (at 0 0 90) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "receiver" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "B" (at -1.27 4.445 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "receiver" (at 8.255 6.985 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "receiver_0_1"
-      (arc (start -3.81 -6.35) (mid 0 -7.4034) (end 3.81 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 55 48 1))
-      )
-      (rectangle (start -3.81 3.175) (end 3.81 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 58 62 1))
-      )
-      (polyline
-        (pts
-          (xy -3.81 5.715)
-          (xy -3.81 -6.35)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 5.715)
-          (xy 3.81 -6.35)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 3.81 5.715) (mid 0 7.1355) (end -3.81 5.715)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "receiver_1_1"
-      (pin output line (at 6.985 4.445 180) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at -6.985 -5.08 0) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "reservoir" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "B" (at -1.27 4.445 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "reservoir" (at 8.255 6.985 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "reservoir_0_1"
-      (arc (start -3.81 -6.35) (mid 0 -7.4034) (end 3.81 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 55 48 1))
-      )
-      (rectangle (start -3.81 3.175) (end 3.81 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type color) (color 255 58 62 1))
-      )
-      (polyline
-        (pts
-          (xy -3.81 5.715)
-          (xy -3.81 -6.35)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 5.715)
-          (xy 3.81 -6.35)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 3.81 5.715) (mid 0 7.1355) (end -3.81 5.715)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "reservoir_1_1"
-      (pin output line (at 0 10.16 270) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "sense-bulb" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "S" (at 5.08 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "sense-bulb" (at 10.16 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 5.08 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "sense-bulb_0_1"
-      (arc (start -0.635 3.81) (mid -0.4515 3.3585) (end 0 3.175)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start -0.381 4.318) (mid -0.5729 4.0965) (end -0.635 3.81)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 3.175)
-          (xy 0 2.921)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 3.175) (mid 0.449 3.361) (end 0.635 3.81)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0.635 3.81) (mid 0.5726 4.0963) (end 0.381 4.318)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "sense-bulb_1_1"
-      (pin output line (at 0 0 90) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "sight-glass" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "G" (at 3.81 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "sight-glass" (at 8.89 -0.635 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "sight-glass_0_1"
-      (rectangle (start -1.905 5.08) (end 1.905 -5.08)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 1.27)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (circle (center 0 0) (radius 1.905)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "sight-glass_1_1"
-      (pin output line (at 0 -8.255 90) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 0 8.255 270) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "suction-line-receiver" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "F" (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "suction-line-receiver" (at 10.795 5.715 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "suction-line-receiver_0_1"
-      (polyline
-        (pts
-          (xy -7.62 0)
-          (xy -3.81 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 0 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 0)
-          (xy 3.81 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 -3.81)
-          (xy 0 -7.62)
-          (xy 3.81 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 -3.81)
-          (xy 3.81 3.81)
-          (xy -3.81 3.81)
-          (xy -3.81 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "suction-line-receiver_1_1"
-      (pin output line (at -9.525 0 0) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 9.525 0 180) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "thermocouple" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "T" (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "thermocouple" (at 0.635 17.145 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "thermocouple_0_1"
-      (polyline
-        (pts
-          (xy -3.81 12.065)
-          (xy 3.81 12.065)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 8.255)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 12.065) (radius 3.81)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "T" (at 0 13.335 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "thermocouple_1_1"
-      (pin output line (at 0 0 90) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "valve-manual" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "V" (at 5.715 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "valve-manual" (at 10.795 5.715 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "valve-manual_0_1"
-      (polyline
-        (pts
-          (xy -0.635 3.175)
-          (xy 0.635 3.175)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 3.175)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy -1.905 1.27)
-          (xy -1.905 -1.27)
-          (xy 0 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 1.905 -1.27)
-          (xy 1.905 1.27)
-          (xy 0 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (circle (center 0 0) (radius 0.508)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-    )
-    (symbol "valve-manual_1_1"
-      (pin output line (at -5.08 0 0) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 5.08 0 180) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "valve-solenoid" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "V" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "valve-solenoid" (at 10.795 4.445 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "valve-solenoid_0_1"
-      (rectangle (start -2.54 8.89) (end 2.54 3.81)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 6.35)
-          (xy 2.54 6.35)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy -1.905 1.27)
-          (xy -1.905 -1.27)
-          (xy 0 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 1.905 -1.27)
-          (xy 1.905 1.27)
-          (xy 0 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (circle (center 0 0) (radius 0.508)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (text "S" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "valve-solenoid_1_1"
-      (pin output line (at -5.08 0 0) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 5.08 0 180) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "valve-temp-controlled" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "V" (at 5.715 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "valve-temp-controlled" (at 16.51 3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "valve-temp-controlled_0_1"
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 3.175)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 -0.508)
-          (xy 0 -1.524)
-          (xy 0.762 -0.508)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy -1.905 1.27)
-          (xy -1.905 -1.27)
-          (xy 0 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 1.905 -1.27)
-          (xy 1.905 1.27)
-          (xy 0 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (circle (center 0 0) (radius 0.508)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (circle (center 0 5.08) (radius 1.778)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (text "TC" (at 0 4.826 0)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "valve-temp-controlled_1_1"
-      (pin output line (at -5.08 0 0) (length 3)
-        (name "in" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 5.08 0 180) (length 3)
-        (name "out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 0 8.89 270) (length 2)
-        (name "ctrl" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "ADAM-5000_DAM"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "NI"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADAM-5000_DAM"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ADAM-5000_DAM_0_0"
+			(text "9-30v"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(text "cDAQ"
+				(at -7.62 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "ADAM-5000_DAM_0_1"
+			(rectangle
+				(start -11.43 -20.32)
+				(end 10.16 5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ADAM-5000_DAM_1_1"
+			(pin bidirectional line
+				(at -16.51 -13.97 0)
+				(length 5.08)
+				(name "RS232"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -16.51 0 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "Module1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -3.81 180)
+				(length 5.08)
+				(name "Module2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "Module3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -16.51 180)
+				(length 5.08)
+				(name "Module4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "EasySYNC_ES-U-3001-M"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "NI"
+			(at 16.51 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EasySYNC_ES-U-3001-M"
+			(at 26.67 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "EasySYNC_ES-U-3001-M_0_0"
+			(text "EasySYNC"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "EasySYNC_ES-U-3001-M_0_1"
+			(rectangle
+				(start -10.16 5.08)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "EasySYNC_ES-U-3001-M_1_1"
+			(pin bidirectional line
+				(at 8.89 10.16 270)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 10.16 270)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 10.16 270)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 10.16 270)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -1.27 10.16 270)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 10.16 270)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -8.89 10.16 270)
+				(length 5.08)
+				(name "USB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 -15.24 90)
+				(length 5.08)
+				(name "RS232"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PSH"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "PS"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HP Pressure Switch"
+			(at -0.635 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NAME" "PSL"
+			(at 0 13.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PSH_0_1"
+			(arc
+				(start -4.445 15.24)
+				(mid -7.7609 11.7475)
+				(end -4.445 8.255)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 8.255) (xy 4.445 8.255)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 15.24) (xy 4.445 15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 12.065) (xy 3.81 12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8.255) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.445 8.255)
+				(mid 7.6905 11.7475)
+				(end 4.445 15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PSH_1_1"
+			(pin output line
+				(at 0 0 90)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "capillary-tube-L"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at 7.62 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "capillary-tube-L"
+			(at 13.335 6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 6.35 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "capillary-tube-L_0_1"
+			(polyline
+				(pts
+					(xy 5.715 0) (xy 5.969 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.334 2.159) (xy -5.715 0) (xy -5.842 0) (xy -5.461 2.159) (xy -5.334 2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 71 215 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.699 -2.159) (xy -3.937 2.159) (xy -3.81 2.159) (xy -4.572 -2.159) (xy -4.699 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 101 247 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.572 -2.159) (xy -5.334 2.159) (xy -5.461 2.159) (xy -4.699 -2.159) (xy -4.572 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 89 242 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -2.159) (xy -2.413 2.159) (xy -2.286 2.159) (xy -3.048 -2.159) (xy -3.175 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 171 247 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 -2.159) (xy -3.81 2.159) (xy -3.937 2.159) (xy -3.175 -2.159) (xy -3.048 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 158 240 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.651 -2.159) (xy -0.889 2.159) (xy -0.762 2.159) (xy -1.524 -2.159) (xy -1.651 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 176 244 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -2.159) (xy -2.286 2.159) (xy -2.413 2.159) (xy -1.651 -2.159) (xy -1.524 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 171 245 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.127 -2.159) (xy 0.635 2.159) (xy 0.762 2.159) (xy 0 -2.159) (xy -0.127 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 217 229 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.159) (xy -0.762 2.159) (xy -0.889 2.159) (xy -0.127 -2.159) (xy 0 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 254 249 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.397 -2.159) (xy 2.159 2.159) (xy 2.286 2.159) (xy 1.524 -2.159) (xy 1.397 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 163 172 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 -2.159) (xy 0.762 2.159) (xy 0.635 2.159) (xy 1.397 -2.159) (xy 1.524 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 213 209 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 -2.159) (xy 3.683 2.159) (xy 3.81 2.159) (xy 3.048 -2.159) (xy 2.921 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 85 73 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -2.159) (xy 2.286 2.159) (xy 2.159 2.159) (xy 2.921 -2.159) (xy 3.048 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 119 100 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.159) (xy 5.207 2.159) (xy 5.334 2.159) (xy 4.572 -2.159) (xy 4.445 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 56 39 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -2.159) (xy 3.81 2.159) (xy 3.683 2.159) (xy 4.445 -2.159) (xy 4.572 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 56 39 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 0) (xy 5.334 2.159) (xy 5.207 2.159) (xy 5.588 0) (xy 5.715 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 56 39 1)
+				)
+			)
+		)
+		(symbol "capillary-tube-L_1_1"
+			(pin output line
+				(at -8.89 0 0)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "capillary-tube-M"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at 7.62 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "capillary-tube-M"
+			(at 13.335 6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 6.35 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "capillary-tube-M_0_1"
+			(polyline
+				(pts
+					(xy -5.842 0) (xy -2.794 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 0) (xy 5.969 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 2.159) (xy -2.667 0) (xy -2.794 0) (xy -2.413 2.159) (xy -2.286 2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 71 215 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.651 -2.159) (xy -0.889 2.159) (xy -0.762 2.159) (xy -1.524 -2.159) (xy -1.651 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 101 247 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -2.159) (xy -2.286 2.159) (xy -2.413 2.159) (xy -1.651 -2.159) (xy -1.524 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 89 242 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.127 -2.159) (xy 0.635 2.159) (xy 0.762 2.159) (xy 0 -2.159) (xy -0.127 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 176 244 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.159) (xy -0.762 2.159) (xy -0.889 2.159) (xy -0.127 -2.159) (xy 0 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 158 240 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.397 -2.159) (xy 2.159 2.159) (xy 2.286 2.159) (xy 1.524 -2.159) (xy 1.397 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 217 229 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 -2.159) (xy 0.762 2.159) (xy 0.635 2.159) (xy 1.397 -2.159) (xy 1.524 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 254 249 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 -2.159) (xy 3.683 2.159) (xy 3.81 2.159) (xy 3.048 -2.159) (xy 2.921 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 163 172 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -2.159) (xy 2.286 2.159) (xy 2.159 2.159) (xy 2.921 -2.159) (xy 3.048 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 213 209 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.159) (xy 5.207 2.159) (xy 5.334 2.159) (xy 4.572 -2.159) (xy 4.445 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 56 39 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -2.159) (xy 3.81 2.159) (xy 3.683 2.159) (xy 4.445 -2.159) (xy 4.572 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 56 39 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 0) (xy 5.334 2.159) (xy 5.207 2.159) (xy 5.588 0) (xy 5.715 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 56 39 1)
+				)
+			)
+		)
+		(symbol "capillary-tube-M_1_1"
+			(pin output line
+				(at -8.89 0 0)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "capillary-tube-S"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at 7.62 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "capillary-tube-S"
+			(at 13.335 6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 6.35 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "capillary-tube-S_0_1"
+			(polyline
+				(pts
+					(xy -5.842 0) (xy 0.381 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 0) (xy 5.969 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.159) (xy 0.381 0) (xy 0.254 0) (xy 0.635 2.159) (xy 0.762 2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 71 215 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.397 -2.159) (xy 2.159 2.159) (xy 2.286 2.159) (xy 1.524 -2.159) (xy 1.397 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 176 244 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 -2.159) (xy 0.762 2.159) (xy 0.635 2.159) (xy 1.397 -2.159) (xy 1.524 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 89 242 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 -2.159) (xy 3.683 2.159) (xy 3.81 2.159) (xy 3.048 -2.159) (xy 2.921 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 217 229 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -2.159) (xy 2.286 2.159) (xy 2.159 2.159) (xy 2.921 -2.159) (xy 3.048 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 254 249 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.159) (xy 5.207 2.159) (xy 5.334 2.159) (xy 4.572 -2.159) (xy 4.445 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 56 39 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -2.159) (xy 3.81 2.159) (xy 3.683 2.159) (xy 4.445 -2.159) (xy 4.572 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 213 209 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 0) (xy 5.334 2.159) (xy 5.207 2.159) (xy 5.588 0) (xy 5.715 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 56 39 1)
+				)
+			)
+		)
+		(symbol "capillary-tube-S_1_1"
+			(pin output line
+				(at -8.89 0 0)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "compressor"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "compressor"
+			(at 10.795 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "compressor_0_1"
+			(polyline
+				(pts
+					(xy -3.81 -5.08) (xy 5.08 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 5.08) (xy 5.08 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 12.065) (xy 3.81 12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.905) (xy -1.905 -1.905)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 8.255)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 12.065)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "E"
+				(at 0 13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "compressor_1_1"
+			(pin output line
+				(at -9.525 0 0)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 9.525 0 180)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "condensor"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "W"
+			(at -16.51 -0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "condensor"
+			(at -6.985 8.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "condensor_0_1"
+			(circle
+				(center -16.51 1.27)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -11.43 6.985)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -9.525 1.27)
+				(mid -7.874 1.0159)
+				(end -6.223 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -6.477 1.27)
+				(mid -8.001 1.4627)
+				(end -9.525 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6.35 1.27)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start -6.35 1.27)
+				(mid -5.815 -0.1932)
+				(end -4.826 -1.397)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -6.35 1.27)
+				(mid -5.346 2.535)
+				(end -4.826 4.064)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6.35 1.27)
+				(radius 4.5791)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.826 -1.397)
+				(mid -5.3347 0.0813)
+				(end -6.35 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.826 4.064)
+				(mid -5.811 2.8579)
+				(end -6.35 1.397)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20.32 1.27) (xy -12.7 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 1.27) (xy -11.43 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 3.81) (xy -3.81 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy -10.16 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -0.762) (xy 0.762 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 0.635) (xy 0.762 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 1.905) (xy 0.762 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 3.048) (xy 0.762 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.112) (xy 0 -3.937)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "E"
+				(at -16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "condensor_1_1"
+			(pin output line
+				(at 0 -6.985 90)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 10.16 270)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "filter"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "filter"
+			(at 5.715 -0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "filter_0_1"
+			(rectangle
+				(start -1.905 4.445)
+				(end 1.905 -4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 5.08)
+				(end 1.905 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -4.445) (xy 1.905 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 4.445) (xy 1.905 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "filter_1_1"
+			(pin output line
+				(at 0 -8.255 90)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 8.255 270)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "flow-meter"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FM"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "flow-meter"
+			(at 0.635 17.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "flow-meter_0_1"
+			(rectangle
+				(start -1.905 2.54)
+				(end 1.905 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 12.065) (xy 3.81 12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8.255) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 12.065)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "F"
+				(at 0 13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "flow-meter_1_1"
+			(pin output line
+				(at -3.175 0 0)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.175 0 180)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "pressure_sensor"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "pressure_sensor"
+			(at 0.635 17.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "pressure_sensor_0_1"
+			(polyline
+				(pts
+					(xy -3.81 12.065) (xy 3.81 12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8.255) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 12.065)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "P"
+				(at 0 13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "pressure_sensor_1_1"
+			(pin output line
+				(at 0 0 90)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "receiver"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "B"
+			(at -1.27 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "receiver"
+			(at 8.255 6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "receiver_0_1"
+			(arc
+				(start -3.81 -6.35)
+				(mid 0 -7.4034)
+				(end 3.81 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 55 48 1)
+				)
+			)
+			(rectangle
+				(start -3.81 3.175)
+				(end 3.81 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 58 62 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 5.715) (xy -3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 5.715) (xy 3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 5.715)
+				(mid 0 7.1355)
+				(end -3.81 5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "receiver_1_1"
+			(pin output line
+				(at 6.985 4.445 180)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.985 -5.08 0)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "reservoir"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "B"
+			(at -1.27 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "reservoir"
+			(at 8.255 6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "reservoir_0_1"
+			(arc
+				(start -3.81 -6.35)
+				(mid 0 -7.4034)
+				(end 3.81 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 55 48 1)
+				)
+			)
+			(rectangle
+				(start -3.81 3.175)
+				(end 3.81 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 58 62 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 5.715) (xy -3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 5.715) (xy 3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 5.715)
+				(mid 0 7.1355)
+				(end -3.81 5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "reservoir_1_1"
+			(pin output line
+				(at 0 10.16 270)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "sense-bulb"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "S"
+			(at 5.08 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "sense-bulb"
+			(at 10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "sense-bulb_0_1"
+			(arc
+				(start -0.635 3.81)
+				(mid -0.4515 3.3585)
+				(end 0 3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.381 4.318)
+				(mid -0.5729 4.0965)
+				(end -0.635 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.175) (xy 0 2.921)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.175)
+				(mid 0.449 3.361)
+				(end 0.635 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.635 3.81)
+				(mid 0.5726 4.0963)
+				(end 0.381 4.318)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "sense-bulb_1_1"
+			(pin output line
+				(at 0 0 90)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "sight-glass"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "G"
+			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "sight-glass"
+			(at 8.89 -0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "sight-glass_0_1"
+			(rectangle
+				(start -1.905 5.08)
+				(end 1.905 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "sight-glass_1_1"
+			(pin output line
+				(at 0 -8.255 90)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 8.255 270)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "suction-line-receiver"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "suction-line-receiver"
+			(at 10.795 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "suction-line-receiver_0_1"
+			(polyline
+				(pts
+					(xy -7.62 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -3.81) (xy 0 -7.62) (xy 3.81 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -3.81) (xy 3.81 3.81) (xy -3.81 3.81) (xy -3.81 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "suction-line-receiver_1_1"
+			(pin output line
+				(at -9.525 0 0)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 9.525 0 180)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "thermocouple"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "thermocouple"
+			(at 0.635 17.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "thermocouple_0_1"
+			(polyline
+				(pts
+					(xy -3.81 12.065) (xy 3.81 12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8.255) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 12.065)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "T"
+				(at 0 13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "thermocouple_1_1"
+			(pin output line
+				(at 0 0 90)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "thermocouple-2-wire"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "thermocouple"
+			(at 0.635 17.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "thermocouple-2-wire_0_1"
+			(polyline
+				(pts
+					(xy -3.81 12.065) (xy 3.81 12.065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 3.048) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.048) (xy 2.54 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8.255) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 12.065)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "T"
+				(at 0 13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "thermocouple-2-wire_1_1"
+			(pin output line
+				(at -2.54 0 90)
+				(length 3)
+				(name "v+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 2.54 0 90)
+				(length 3)
+				(name "v-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "valve-manual"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
+			(at 5.715 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "valve-manual"
+			(at 10.795 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "valve-manual_0_1"
+			(polyline
+				(pts
+					(xy -0.635 3.175) (xy 0.635 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -1.905 1.27) (xy -1.905 -1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 1.905 -1.27) (xy 1.905 1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "valve-manual_1_1"
+			(pin output line
+				(at -5.08 0 0)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 0 180)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "valve-solenoid"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "valve-solenoid"
+			(at 10.795 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "valve-solenoid_0_1"
+			(rectangle
+				(start -2.54 8.89)
+				(end 2.54 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 6.35) (xy 2.54 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -1.905 1.27) (xy -1.905 -1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 1.905 -1.27) (xy 1.905 1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "S"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "valve-solenoid_1_1"
+			(pin output line
+				(at -5.08 0 0)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 0 180)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "valve-temp-controlled"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
+			(at 5.715 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "valve-temp-controlled"
+			(at 16.51 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "valve-temp-controlled_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -0.508) (xy 0 -1.524) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -1.905 1.27) (xy -1.905 -1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 1.905 -1.27) (xy 1.905 1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 5.08)
+				(radius 1.778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "TC"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "valve-temp-controlled_1_1"
+			(pin output line
+				(at -5.08 0 0)
+				(length 3)
+				(name "in"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 0 180)
+				(length 3)
+				(name "out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 8.89 270)
+				(length 2)
+				(name "ctrl"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )

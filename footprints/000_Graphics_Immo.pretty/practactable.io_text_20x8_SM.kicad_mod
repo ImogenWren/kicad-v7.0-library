@@ -1,4 +1,4 @@
-(footprint "practactable.io_text_20x8"
+(footprint "practactable.io_text_20x8_SM"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -74,7 +74,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "e566d9b5-f8a5-46a5-af40-abcc86d5cc91")
 	)
 	(fp_poly
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "e640f6fd-ee58-4018-a97d-fec5eb6bac31")
 	)
 	(fp_poly
@@ -105,7 +105,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "57c65ab4-a910-4581-a14c-d7b41bc400e1")
 	)
 	(fp_poly
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "337bee4e-4d84-49fe-91e7-8a8314d5fa8f")
 	)
 	(fp_poly
@@ -138,7 +138,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "5c7a8485-644e-41ce-808b-2c64f2c30b49")
 	)
 	(fp_poly
@@ -156,7 +156,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "e9a65d58-198f-4fa8-862e-e9b9e1d3b7d0")
 	)
 	(fp_poly
@@ -177,7 +177,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "1e1ddf2c-fd43-4fe0-90bd-c76838f48714")
 	)
 	(fp_poly
@@ -197,7 +197,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "25fd2241-5474-4f6b-94f4-32231c63a8ed")
 	)
 	(fp_poly
@@ -218,7 +218,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "8946d445-85bc-41cb-af09-96c70d7de8c3")
 	)
 	(fp_poly
@@ -240,7 +240,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "8fb11f94-e2c0-4ffe-b7af-2324ef9873e4")
 	)
 	(fp_poly
@@ -262,7 +262,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "a3566908-7573-46f5-bd8d-7cb5bb5b2eaa")
 	)
 	(fp_poly
@@ -284,7 +284,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "673135cb-373a-4f0a-b736-ec22c46990ff")
 	)
 	(fp_poly
@@ -307,7 +307,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "7ebec393-ae5f-4bd6-ae97-fd367cec797b")
 	)
 	(fp_poly
@@ -331,7 +331,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "5e1eceee-20c9-40de-8bfa-de8d23e1932b")
 	)
 	(fp_poly
@@ -357,7 +357,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "824954e0-2c44-4e8c-9dcc-c555497b1d39")
 	)
 	(fp_poly
@@ -384,7 +384,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "9c57756c-1ad0-4f09-a4d6-8ac1c63be8ee")
 	)
 	(fp_poly
@@ -410,7 +410,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "a43b80a5-77b7-4200-9186-7d8e5f4b6764")
 	)
 	(fp_poly
@@ -436,7 +436,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "dc3ee5cd-2fae-4da3-a495-af90b5898af0")
 	)
 	(fp_poly
@@ -464,7 +464,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "df97e453-f936-48aa-9846-f160f4b87786")
 	)
 	(fp_poly
@@ -497,7 +497,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "F.SilkS")
+		(layer "F.Mask")
 		(uuid "8a0cca54-d30b-4e69-a240-612985b10195")
 	)
 )

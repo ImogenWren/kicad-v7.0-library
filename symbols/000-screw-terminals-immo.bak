@@ -1,1294 +1,3355 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Screw_Terminal_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Screw_Terminal_01x02" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "000_Connectors_Immo:TerminalBlock_Altech_AK300-2_P5.00mm" (at 0.508 -8.382 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PIN1" "PIN1" (at 3.556 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN2" "PIN2" (at 3.556 -2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "screw terminal" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Screw_Terminal_01x02_1_1"
-      (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (circle (center 0 -2.54) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -2.2098)
-          (xy 0.3302 -3.048)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 0.3302)
-          (xy 0.3302 -0.508)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -2.032)
-          (xy 0.508 -2.8702)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 0.508)
-          (xy 0.508 -0.3302)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Screw_Terminal_01x02_small" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Screw_Terminal_01x02_small" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "000-screw-terminals-immo:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" (at 0.508 -8.382 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PIN1" "PIN1" (at 3.556 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN2" "PIN2" (at 3.556 -2.794 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "screw terminal" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Screw_Terminal_01x02_small_1_1"
-      (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (circle (center 0 -2.54) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -2.2098)
-          (xy 0.3302 -3.048)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 0.3302)
-          (xy 0.3302 -0.508)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -2.032)
-          (xy 0.508 -2.8702)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 0.508)
-          (xy 0.508 -0.3302)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "pheonix_01x04_screwterminal_2.54mm" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "pheonix_01x04_screwterminal_2.54mm" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" (at -1.27 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://uk.farnell.com/wago/236-402/terminal-block-wire-to-brd-2pos/dp/1283526" (at -2.54 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "screw terminal" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "pheonix_01x04_screwterminal_2.54mm_1_1"
-      (rectangle (start -1.27 3.81) (end 1.27 -6.35)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (circle (center 0 -5.08) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -2.54) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -4.7498)
-          (xy 0.3302 -5.588)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -2.2098)
-          (xy 0.3302 -3.048)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 0.3302)
-          (xy 0.3302 -0.508)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 2.8702)
-          (xy 0.3302 2.032)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -4.572)
-          (xy 0.508 -5.4102)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -2.032)
-          (xy 0.508 -2.8702)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 0.508)
-          (xy 0.508 -0.3302)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 3.048)
-          (xy 0.508 2.2098)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 2.54) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -5.08 2.54 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "Pin_3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -5.08 0) (length 3.81)
-        (name "Pin_4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "synth-power-header" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "synth-power-header" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "000-screw-terminals-immo:synth-power-termbox-MPT-0,5-4-2.54_1x04_P2.54mm" (at -1.27 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://uk.farnell.com/wago/236-402/terminal-block-wire-to-brd-2pos/dp/1283526" (at -2.54 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RSpart" "790-1102" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "cost" "£0.934" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "supplier" "https://uk.rs-online.com/web/p/pcb-terminal-blocks/7901102" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "screw terminal" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "synth-power-header_1_1"
-      (rectangle (start -1.27 3.81) (end 7.62 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 5.5108 -4.6789)
-          (xy 6.3744 -5.5171)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.5108 -2.1389)
-          (xy 6.3744 -2.9771)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.5108 0.4011)
-          (xy 6.3744 -0.4371)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.5108 2.9411)
-          (xy 6.3744 2.1029)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.6886 -4.5011)
-          (xy 6.5522 -5.3393)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.6886 -1.9611)
-          (xy 6.5522 -2.7993)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.6886 0.5789)
-          (xy 6.5522 -0.2593)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.6886 3.1189)
-          (xy 6.5522 2.2807)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.0442 -5.0091) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.0442 -2.4691) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.0442 0.0709) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.0442 2.6109) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -5.08 2.54 0) (length 3.81)
-        (name "-12v" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "gnd" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "gnd" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -5.08 0) (length 3.81)
-        (name "+12v" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "synth-signal-header-10way" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "J6" (at -1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "synth-signal-header-10way" (at -1.27 3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "000-screw-terminals-immo:synth-signal-MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" (at -3.81 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 8.89 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RSpart" "790-1124" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "cost" "£2.638" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "supplier" "https://uk.rs-online.com/web/p/pcb-terminal-blocks/7901124" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PIN1" "PIN1" (at 10.16 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN2" "PIN2" (at 10.16 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN3" "PIN3" (at 10.16 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN4" "PIN4" (at 10.16 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN5" "PIN5" (at 10.16 -10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN6" "PIN6" (at 10.16 -12.7 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN7" "PIN7" (at 10.16 -15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN8" "PIN8" (at 10.16 -17.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN9" "PIN9" (at 10.16 -20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "PIN10" "PIN10" (at 11.43 -22.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "screw terminal" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "synth-signal-header-10way_1_1"
-      (rectangle (start -1.27 1.27) (end 7.62 -24.13)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 6.071 -2.2044)
-          (xy 6.9346 -3.0426)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.071 0.3356)
-          (xy 6.9346 -0.5026)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.096 -22.352)
-          (xy 6.9596 -23.1902)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.096 -19.812)
-          (xy 6.9596 -20.6502)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.096 -17.272)
-          (xy 6.9596 -18.1102)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.096 -14.732)
-          (xy 6.9596 -15.5702)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.096 -12.192)
-          (xy 6.9596 -13.0302)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.096 -9.652)
-          (xy 6.9596 -10.4902)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.096 -7.112)
-          (xy 6.9596 -7.9502)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.096 -4.572)
-          (xy 6.9596 -5.4102)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2488 -2.0266)
-          (xy 7.1124 -2.8648)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2488 0.5134)
-          (xy 7.1124 -0.3248)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2738 -22.1742)
-          (xy 7.1374 -23.0124)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2738 -19.6342)
-          (xy 7.1374 -20.4724)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2738 -17.0942)
-          (xy 7.1374 -17.9324)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2738 -14.5542)
-          (xy 7.1374 -15.3924)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2738 -12.0142)
-          (xy 7.1374 -12.8524)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2738 -9.4742)
-          (xy 7.1374 -10.3124)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2738 -6.9342)
-          (xy 7.1374 -7.7724)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2738 -4.3942)
-          (xy 7.1374 -5.2324)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6044 -2.5346) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6044 0.0054) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6294 -22.6822) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6294 -20.1422) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6294 -17.6022) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6294 -15.0622) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6294 -12.5222) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6294 -9.9822) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6294 -7.4422) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6294 -4.9022) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "gnd" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -22.86 0) (length 3.81)
-        (name "signal" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "signal" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -5.08 0) (length 3.81)
-        (name "gnd" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -7.62 0) (length 3.81)
-        (name "signal" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -10.16 0) (length 3.81)
-        (name "gnd" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -12.7 0) (length 3.81)
-        (name "signal" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -15.24 0) (length 3.81)
-        (name "gnd" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -17.78 0) (length 3.81)
-        (name "signal" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -20.32 0) (length 3.81)
-        (name "gnd" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "synth-signal-header-2way" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "synth-signal-header-2way" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "000-screw-terminals-immo:synth-signal-MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" (at 0.508 -8.382 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 8.89 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PIN1" "PIN1" (at 10.16 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "PIN2" "PIN2" (at 10.16 -2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RSpart" "790-1098" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "cost" "£0.518" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "supplier" "https://uk.rs-online.com/web/p/pcb-terminal-blocks/7901098" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "screw terminal" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "synth-signal-header-2way_1_1"
-      (rectangle (start -1.27 1.27) (end 7.62 -3.81)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 6.071 -2.2044)
-          (xy 6.9346 -3.0426)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.071 0.3356)
-          (xy 6.9346 -0.5026)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2488 -2.0266)
-          (xy 7.1124 -2.8648)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.2488 0.5134)
-          (xy 7.1124 -0.3248)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6044 -2.5346) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 6.6044 0.0054) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "gnd" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "signal" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "wago-01*16-push-clamp-terminal" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "wago-01*16-push-clamp-terminal" (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "000-screw-terminals-immo:TerminalBlock_WAGO_236-416_1x16_P2.5mm_45Degree" (at 0 -27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://docs.rs-online.com/ae1d/0900766b814289bc.pdf" (at -1.27 -25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RSpart" "891-9886" (at -27.94 -30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost" "7.55" (at -20.32 -30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "L1" "L1" (at 3.81 17.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L2" "L2" (at 3.81 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L3" "L3" (at 3.81 12.7 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L4" "L4" (at 3.81 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L5" "L5" (at 3.81 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L6" "L6" (at 3.81 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L7" "L7" (at 3.81 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L8" "L8" (at 3.81 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L9" "L9" (at 3.81 -2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L10" "L10" (at 3.81 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L11" "L11" (at 3.81 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L12" "L12" (at 3.81 -10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L13" "L13" (at 3.81 -12.7 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L14" "L14" (at 3.81 -15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L15" "L15" (at 3.81 -17.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "L16" "L16" (at 3.81 -20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_keywords" "screw terminal" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Generic screw terminal, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "wago-01*16-push-clamp-terminal_1_1"
-      (rectangle (start -1.27 19.05) (end 1.27 -21.59)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (circle (center 0 -20.32) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -17.78) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -15.24) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -12.7) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -10.16) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -7.62) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -5.08) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -2.54) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -19.9898)
-          (xy 0.3302 -20.828)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -17.4498)
-          (xy 0.3302 -18.288)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -14.9098)
-          (xy 0.3302 -15.748)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -12.3698)
-          (xy 0.3302 -13.208)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -9.8298)
-          (xy 0.3302 -10.668)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -7.2898)
-          (xy 0.3302 -8.128)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -4.7498)
-          (xy 0.3302 -5.588)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 -2.2098)
-          (xy 0.3302 -3.048)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 0.3302)
-          (xy 0.3302 -0.508)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 2.8702)
-          (xy 0.3302 2.032)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 5.4102)
-          (xy 0.3302 4.572)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 7.9502)
-          (xy 0.3302 7.112)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 10.4902)
-          (xy 0.3302 9.652)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 13.0302)
-          (xy 0.3302 12.192)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 15.5702)
-          (xy 0.3302 14.732)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.5334 18.1102)
-          (xy 0.3302 17.272)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -19.812)
-          (xy 0.508 -20.6502)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -17.272)
-          (xy 0.508 -18.1102)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -14.732)
-          (xy 0.508 -15.5702)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -12.192)
-          (xy 0.508 -13.0302)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -9.652)
-          (xy 0.508 -10.4902)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -7.112)
-          (xy 0.508 -7.9502)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -4.572)
-          (xy 0.508 -5.4102)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 -2.032)
-          (xy 0.508 -2.8702)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 0.508)
-          (xy 0.508 -0.3302)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 3.048)
-          (xy 0.508 2.2098)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 5.588)
-          (xy 0.508 4.7498)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 8.128)
-          (xy 0.508 7.2898)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 10.668)
-          (xy 0.508 9.8298)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 13.208)
-          (xy 0.508 12.3698)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 15.748)
-          (xy 0.508 14.9098)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.3556 18.288)
-          (xy 0.508 17.4498)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 2.54) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 5.08) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 7.62) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 10.16) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 12.7) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 15.24) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 17.78) (radius 0.635)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -5.08 17.78 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -5.08 0) (length 3.81)
-        (name "Pin_10" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -7.62 0) (length 3.81)
-        (name "Pin_11" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -10.16 0) (length 3.81)
-        (name "Pin_12" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -12.7 0) (length 3.81)
-        (name "Pin_13" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -15.24 0) (length 3.81)
-        (name "Pin_14" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -17.78 0) (length 3.81)
-        (name "Pin_15" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -20.32 0) (length 3.81)
-        (name "Pin_16" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 15.24 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 12.7 0) (length 3.81)
-        (name "Pin_3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 10.16 0) (length 3.81)
-        (name "Pin_4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 7.62 0) (length 3.81)
-        (name "Pin_5" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 5.08 0) (length 3.81)
-        (name "Pin_6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 2.54 0) (length 3.81)
-        (name "Pin_7" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "Pin_8" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "Pin_9" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "01x04_screwterminal_large"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "pheonix_01x04_screwterminal_2.54mm"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm"
+			(at -1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/wago/236-402/terminal-block-wire-to-brd-2pos/dp/1283526"
+			(at -2.54 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "01x04_screwterminal_large_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 -5.08)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 2.8702) (xy 0.3302 2.032)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 3.048) (xy 0.508 2.2098)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Screw_Terminal_01x02"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000-screw-terminals-immo:TerminalBlock_Altech_AK300-2_P5.00mm"
+			(at 0.508 -8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN1" "PIN1"
+			(at 3.556 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN2" "PIN2"
+			(at 3.556 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCpart" "C2839417"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Screw_Terminal_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Screw_Terminal_01x02_small"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02_small"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000-screw-terminals-immo:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 0.508 -8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN1" "PIN1"
+			(at 3.556 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN2" "PIN2"
+			(at 3.556 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Screw_Terminal_01x02_small_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "pheonix_01x04_screwterminal_2.54mm"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "pheonix_01x04_screwterminal_2.54mm"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at -1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/wago/236-402/terminal-block-wire-to-brd-2pos/dp/1283526"
+			(at -2.54 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "pheonix_01x04_screwterminal_2.54mm_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 -5.08)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 2.8702) (xy 0.3302 2.032)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 3.048) (xy 0.508 2.2098)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "synth-power-header"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "synth-power-header"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000-screw-terminals-immo:synth-power-termbox-MPT-0,5-4-2.54_1x04_P2.54mm"
+			(at -1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://uk.farnell.com/wago/236-402/terminal-block-wire-to-brd-2pos/dp/1283526"
+			(at -2.54 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RSpart" "790-1102"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "£0.934"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier" "https://uk.rs-online.com/web/p/pcb-terminal-blocks/7901102"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "synth-power-header_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 7.62 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.5108 -4.6789) (xy 6.3744 -5.5171)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.5108 -2.1389) (xy 6.3744 -2.9771)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.5108 0.4011) (xy 6.3744 -0.4371)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.5108 2.9411) (xy 6.3744 2.1029)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.6886 -4.5011) (xy 6.5522 -5.3393)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.6886 -1.9611) (xy 6.5522 -2.7993)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.6886 0.5789) (xy 6.5522 -0.2593)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.6886 3.1189) (xy 6.5522 2.2807)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.0442 -5.0091)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.0442 -2.4691)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.0442 0.0709)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.0442 2.6109)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "-12v"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "gnd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "gnd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "+12v"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "synth-signal-header-10way"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J6"
+			(at -1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "synth-signal-header-10way"
+			(at -1.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000-screw-terminals-immo:synth-signal-MPT-1x10_P2.54mm_Horizontal_1"
+			(at -3.81 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 8.89 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RSpart" "790-1124"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "£2.638"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier" "https://uk.rs-online.com/web/p/pcb-terminal-blocks/7901124"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN1" "PIN1"
+			(at 10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN2" "PIN2"
+			(at 10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN3" "PIN3"
+			(at 10.16 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN4" "PIN4"
+			(at 10.16 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN5" "PIN5"
+			(at 10.16 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN6" "PIN6"
+			(at 10.16 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN7" "PIN7"
+			(at 10.16 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN8" "PIN8"
+			(at 10.16 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN9" "PIN9"
+			(at 10.16 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN10" "PIN10"
+			(at 11.43 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "synth-signal-header-10way_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 7.62 -24.13)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.071 -2.2044) (xy 6.9346 -3.0426)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.071 0.3356) (xy 6.9346 -0.5026)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -22.352) (xy 6.9596 -23.1902)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -19.812) (xy 6.9596 -20.6502)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -17.272) (xy 6.9596 -18.1102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -14.732) (xy 6.9596 -15.5702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -12.192) (xy 6.9596 -13.0302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -9.652) (xy 6.9596 -10.4902)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -7.112) (xy 6.9596 -7.9502)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -4.572) (xy 6.9596 -5.4102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2488 -2.0266) (xy 7.1124 -2.8648)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2488 0.5134) (xy 7.1124 -0.3248)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2738 -22.1742) (xy 7.1374 -23.0124)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2738 -19.6342) (xy 7.1374 -20.4724)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2738 -17.0942) (xy 7.1374 -17.9324)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2738 -14.5542) (xy 7.1374 -15.3924)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2738 -12.0142) (xy 7.1374 -12.8524)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2738 -9.4742) (xy 7.1374 -10.3124)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2738 -6.9342) (xy 7.1374 -7.7724)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2738 -4.3942) (xy 7.1374 -5.2324)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6044 -2.5346)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6044 0.0054)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6294 -22.6822)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6294 -20.1422)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6294 -17.6022)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6294 -15.0622)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6294 -12.5222)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6294 -9.9822)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6294 -7.4422)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6294 -4.9022)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "gnd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -22.86 0)
+				(length 3.81)
+				(name "signal"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "signal"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "gnd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "signal"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -10.16 0)
+				(length 3.81)
+				(name "gnd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -12.7 0)
+				(length 3.81)
+				(name "signal"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -15.24 0)
+				(length 3.81)
+				(name "gnd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -17.78 0)
+				(length 3.81)
+				(name "signal"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -20.32 0)
+				(length 3.81)
+				(name "gnd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "synth-signal-header-2way"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "synth-signal-header-2way"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000-screw-terminals-immo:synth-signal-MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 0.508 -8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 8.89 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN1" "PIN1"
+			(at 10.16 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN2" "PIN2"
+			(at 10.16 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RSpart" "790-1098"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "£0.518"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "supplier" "https://uk.rs-online.com/web/p/pcb-terminal-blocks/7901098"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "synth-signal-header-2way_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 7.62 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.071 -2.2044) (xy 6.9346 -3.0426)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.071 0.3356) (xy 6.9346 -0.5026)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2488 -2.0266) (xy 7.1124 -2.8648)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.2488 0.5134) (xy 7.1124 -0.3248)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6044 -2.5346)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.6044 0.0054)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "gnd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "signal"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "wago-01*16-push-clamp-terminal"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "wago-01*16-push-clamp-terminal"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000-screw-terminals-immo:TerminalBlock_WAGO_236-416_1x16_P2.5mm_45Degree"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.rs-online.com/ae1d/0900766b814289bc.pdf"
+			(at -1.27 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RSpart" "891-9886"
+			(at -27.94 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "7.55"
+			(at -20.32 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "L1" "L1"
+			(at 3.81 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L2" "L2"
+			(at 3.81 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L3" "L3"
+			(at 3.81 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L4" "L4"
+			(at 3.81 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L5" "L5"
+			(at 3.81 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L6" "L6"
+			(at 3.81 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L7" "L7"
+			(at 3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L8" "L8"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L9" "L9"
+			(at 3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L10" "L10"
+			(at 3.81 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L11" "L11"
+			(at 3.81 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L12" "L12"
+			(at 3.81 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L13" "L13"
+			(at 3.81 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L14" "L14"
+			(at 3.81 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L15" "L15"
+			(at 3.81 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L16" "L16"
+			(at 3.81 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "screw terminal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TerminalBlock*:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "wago-01*16-push-clamp-terminal_1_1"
+			(rectangle
+				(start -1.27 19.05)
+				(end 1.27 -21.59)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 -20.32)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -17.78)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -15.24)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -12.7)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -10.16)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -7.62)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.08)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -19.9898) (xy 0.3302 -20.828)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -17.4498) (xy 0.3302 -18.288)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -14.9098) (xy 0.3302 -15.748)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -12.3698) (xy 0.3302 -13.208)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -9.8298) (xy 0.3302 -10.668)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 2.8702) (xy 0.3302 2.032)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 5.4102) (xy 0.3302 4.572)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 7.9502) (xy 0.3302 7.112)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 10.4902) (xy 0.3302 9.652)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 13.0302) (xy 0.3302 12.192)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 15.5702) (xy 0.3302 14.732)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5334 18.1102) (xy 0.3302 17.272)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -19.812) (xy 0.508 -20.6502)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -17.272) (xy 0.508 -18.1102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -14.732) (xy 0.508 -15.5702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -12.192) (xy 0.508 -13.0302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -9.652) (xy 0.508 -10.4902)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -7.112) (xy 0.508 -7.9502)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 0.508) (xy 0.508 -0.3302)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 3.048) (xy 0.508 2.2098)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 5.588) (xy 0.508 4.7498)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 8.128) (xy 0.508 7.2898)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 10.668) (xy 0.508 9.8298)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 13.208) (xy 0.508 12.3698)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 15.748) (xy 0.508 14.9098)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3556 18.288) (xy 0.508 17.4498)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 5.08)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 7.62)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 10.16)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 12.7)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 15.24)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 17.78)
+				(radius 0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 17.78 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -10.16 0)
+				(length 3.81)
+				(name "Pin_12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -12.7 0)
+				(length 3.81)
+				(name "Pin_13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -15.24 0)
+				(length 3.81)
+				(name "Pin_14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -17.78 0)
+				(length 3.81)
+				(name "Pin_15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -20.32 0)
+				(length 3.81)
+				(name "Pin_16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 15.24 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 12.7 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 10.16 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 7.62 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
